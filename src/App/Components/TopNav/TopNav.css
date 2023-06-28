@@ -1,0 +1,40 @@
+.topNav-container{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topnav-logo{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+.topnav-logoicon{
+    width: 64px;
+}
+#topnav-search{
+    border: 0;
+    border-radius: 25px;
+    width: 350px;
+    height: 50px;
+    font-size: large;
+    padding-left: 35px;
+}
+.topnav-searchicon{
+    width: 25px;
+    position: relative;
+    left: -50px;
+    top: 5px;
+}
+.topnav-button{
+    width: 150px;
+    height: 50px;
+    padding: 12px 24px;
+    font-size: 0.84rem;
+    margin-right: 15px;
+}
+.buttons{
+    display: flex;
+}

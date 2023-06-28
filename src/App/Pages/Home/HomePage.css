@@ -1,0 +1,9 @@
+.hero-background{
+    background-image: url("../../Assets/BackgroundGradiant.png");
+    height: 880px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    box-sizing: border-box;
+}
+

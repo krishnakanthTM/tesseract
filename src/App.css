@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-1-container{
+    max-width: 450px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-1-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 2.4rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section-1-text{
+    color: white;
+    margin: 20px 0;
+    font-size: 0.9rem;
 }
-
-.App-link {
-  color: #61dafb;
+.section-1-button,.section-1-outline{
+    color: white;
+    width: 165px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-1-buttons{
+    display: flex;
+}
+.section-1-button{
+    background-color: rgba(0, 122, 204, 1);
+    border: 0;
+}
+.section-1-outline{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.section-1-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    height: 800px;
+    background-image: url("./App/Assets/sectionBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-2-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    height: 800px;
+}
+.section-2-container{
+    max-width: 450px;
+}
+.section-2-heading{
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.section-2-text{
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+.section-card-item{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
+.card-text{
+    width: 200px;
+    margin: 15px 0;
+}
+.card-person{
+    margin: 10px 0;
+    display: flex;
+}
+.card-person-name{
+    color: rgba(35, 166, 240, 1);
+    font-weight: bold;
+}
+.section-cards{
+    display: flex;
+}
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 
+    40px;
+}
+.section-text{
+    color: white;
+    max-width: 350px;
+}
+.clients{
+    color: rgba(35, 166, 240, 1);
+}
+.section-header{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.bussiness-heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.business-card-item{
+    border: 1px solid gray;
+    height: 150px;
+    width: 200px;
+}
+.bussiness-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.rectangle{
+    position: absolute;
+    top: 580px;
+    left: -20px;
+}
+.rectangle2{
+    position: absolute;
+    z-index: -1;
+    top:1600px;
+    right:0;
+}
+.rectangle3{
+    position: absolute;
+    z-index: -1;
+    top:1300px;
+    left:30%;
 }
