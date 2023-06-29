@@ -24,7 +24,14 @@ function TopNav() {
           />
         </div>
         <button className="topnav-button">Request a Demo</button>
-        <button className="topnav-button">Login</button>
+        <button
+          className="topnav-button"
+          onClick={() => {
+            window.location.replace("https://pinnacleit.my.salesforce.com/");
+          }}
+        >
+          Login
+        </button>
       </div>
     </div>
   );
