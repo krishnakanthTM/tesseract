@@ -27,7 +27,7 @@ function TopNav() {
         <button
           className="topnav-button"
           onClick={() => {
-            window.location.replace("https://pinnacleit.my.salesforce.com/");
+            window.open("https://pinnacleit.my.salesforce.com/");
           }}
         >
           Login
