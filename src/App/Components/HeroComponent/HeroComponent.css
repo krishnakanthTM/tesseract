@@ -1,0 +1,33 @@
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 150px;
+}
+.hero-background-image{
+    position: absolute;
+    top: 0;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+}
+.hero-content{
+    max-width: 450px;
+}
+.hero-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.hero-text{
+    color: white;
+    margin: 20px 0;
+    font-size: 0.9rem; 
+}
+.hero-buttons{
+    display:flex
+}
+.hero-image{
+    width: 18%;
+}

@@ -1,0 +1,21 @@
+.LeftImageRightContent-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    height: 800px;
+}
+.LeftImageRightContent-content{
+    max-width: 450px;
+}
+.LeftImageRightContent-heading{
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.LeftImageRightContent-text{
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+.LeftImageRightContent-buttons{
+    display:flex
+}

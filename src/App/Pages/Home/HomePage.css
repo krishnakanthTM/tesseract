@@ -1,54 +1,4 @@
-.hero-background{
-    background-image: url("../../Assets/BackgroundGradiant.png");
-    height: 880px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    box-sizing: border-box;
-}
 
-.section-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 200px;
-}
-.section-1-container{
-    max-width: 450px;
-}
-.section-1-heading{
-    color: white;
-    font-weight: bold;
-    font-size: 2.4rem;
-}
-.section-1-text{
-    color: white;
-    margin: 20px 0;
-    font-size: 0.9rem;
-}
-.section-1-button,.section-1-outline{
-    color: white;
-    width: 165px;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.section-1-buttons{
-    display: flex;
-}
-.section-1-button{
-    background-color: rgba(0, 122, 204, 1);
-    border: 0;
-}
-.section-1-outline{
-    background-color: transparent;
-    border: 1px solid white;
-}
 .section-1-type{
     display: flex;
     align-items: center;
@@ -57,26 +7,7 @@
     height: 800px;
     background-image: url("../../Assets/sectionBackground.png");
     background-repeat: no-repeat;
-    background-size: cover;
-}
-.section-2-type{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
-    height: 800px;
-    
-}
-.section-2-container{
-    max-width: 450px;
-}
-.section-2-heading{
-    font-weight: bold;
-    font-size: 2.3rem;
-}
-.section-2-text{
-    margin: 20px 0;
-    font-size: 0.9rem;
+    background-size: contain;
 }
 .section-card-item{
     background-color: white;
@@ -142,18 +73,18 @@
 }
 .rectangle{
     position: absolute;
-    top: 580px;
+    top: 65%;
     left: -20px;
 }
 .rectangle2{
     position: absolute;
-    z-index: -1;
-    top:1600px;
+    z-index: -10;
+    top:180%;
     right:0;
 }
 .rectangle3{
     position: absolute;
-    z-index: -1;
-    top:1300px;
-    left:30%;
+    z-index: -10;
+    top:150%;
+    left:33%;
 }

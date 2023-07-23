@@ -1,0 +1,28 @@
+.tesseract-button-primary{
+    color: white;
+    width: 165px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(0, 122, 204, 1);
+    border: 0;
+}
+.tesseract-button-outline{
+    color: white;
+    width: 165px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+}
