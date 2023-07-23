@@ -9,9 +9,8 @@
   top: 0px;
   display: flex;
   color: white;
-  display: flex;
   justify-content: center;
-  z-index: 1000;
+  z-index: 5000;
 }
 .nav-items{
     width: 115px;
