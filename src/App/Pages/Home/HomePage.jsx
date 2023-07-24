@@ -7,8 +7,12 @@ import rectangle from "../../Assets/rectangle.png";
 import rectangle2 from "../../Assets/rectangle2.png";
 import rectangle3 from "../../Assets/rectangle3.png";
 import HeroComponent from "../../Components/HeroComponent/HeroComponent";
-import LeftImageRightContent from "../../Components/LeftImageRightContent/LeftImageRightContent";
-import { empowerNDISIndustry } from "./HomePageData";
+import ImageWithContent from "../../Components/ImageWithContent/ImageWithContent";
+import {
+  empowerNDISIndustry,
+  thePowerOfAdaptiveness,
+  humanResources,
+} from "./HomePageData";
 import Whyus from "../../Components/Whyus/Whyus";
 import BusinessPartners from "../../Components/BusinessPartners/BusinessPartners";
 
@@ -19,9 +23,11 @@ function HomePage() {
       <Navbar />
       <HeroComponent />
       <img src={rectangle} alt="rectangle" className="rectangle" />
-      <LeftImageRightContent data={empowerNDISIndustry} />
+      <ImageWithContent data={empowerNDISIndustry} />
       <img src={rectangle2} alt="rectangle2" className="rectangle2" />
       <img src={rectangle3} alt="rectangle3" className="rectangle3" />
+      <ImageWithContent data={humanResources} />
+      <ImageWithContent data={thePowerOfAdaptiveness} />
       <Whyus />
       <BusinessPartners />
       <Footer />

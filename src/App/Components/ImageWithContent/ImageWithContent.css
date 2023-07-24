@@ -1,23 +1,29 @@
-.LeftImageRightContent-container{
+.ImageWithContent-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     height: 800px;
 }
-.LeftImageRightContent-content{
+.ImageWithContent-background-image{
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+}
+.ImageWithContent-content{
     max-width: 450px;
 }
-.LeftImageRightContent-heading{
+.ImageWithContent-heading{
     font-weight: bold;
     font-size: 2.3rem;
     margin-bottom: 10px;
 }
-.LeftImageRightContent-text{
+.ImageWithContent-text{
     margin: 20px 0;
     font-size: 0.9rem;
 }
-.LeftImageRightContent-buttons{
+.ImageWithContent-buttons{
     display:flex
 }
 .whyus-background-image{
