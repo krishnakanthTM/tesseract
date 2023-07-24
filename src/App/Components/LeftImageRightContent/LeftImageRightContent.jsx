@@ -12,9 +12,18 @@ function LeftImageRightContent({ data }) {
         <div className="LeftImageRightContent-text">{data.text}</div>
         <div className="LeftImageRightContent-buttons">
           {data.buttons.length > 0 &&
-            data.buttons.map((item) => (
-              <button className={`tesseract-button-${item.type}`}>
-                {item.title} &nbsp; {item.type === "outline" ? rightIcon : ""}
+            data.buttons.map((item, index) => (
+              <button key={index} className={`tesseract-button-${item.type}`}>
+                {item.title} &nbsp;{" "}
+                {item.type === "outline" ? (
+                  <img
+                    src={rightIcon}
+                    alt="right-icon"
+                    className="right-icon"
+                  />
+                ) : (
+                  ""
+                )}
               </button>
             ))}
         </div>

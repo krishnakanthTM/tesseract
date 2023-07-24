@@ -1,0 +1,18 @@
+.bussiness-heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.business-card-item{
+    border: 1px solid gray;
+    height: 150px;
+    width: 200px;
+}
+.bussiness-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
