@@ -2,8 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 100px; */
-    height: 800px;
+    margin-bottom: 100px;
+    min-height: 600px;
+    max-height: 750px;
+}
+.ImageWithContent-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ImageWithContent-background-image {
@@ -11,6 +17,7 @@
     z-index: -5;
     width: 100%;
     height: 100%;
+    max-height: 780px;
 }
 
 .ImageWithContent-content {
@@ -31,23 +38,43 @@
 .ImageWithContent-buttons {
     display: flex
 }
-
-.whyus-background-image {
-    position: absolute;
-    z-index: -5;
-    width: 100%;
-    height: 100%;
+.ImageWithContent-image{
+    width: min-content;
 }
 
-@media only screen and (min-width: 834px) and (max-width: 1194px) {
+
+@media only screen and (min-width: 429px) and (max-width: 834px) {
+    .ImageWithContent-contents{
+        padding: 0 150px;
+    }
+    .ImageWithContent-image{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .ImageWithContent-text{
+        font-size: 1rem;
+    }
+    .ImageWithContent-heading{
+        font-size: 1.8rem;
+        margin-bottom: 0px;
+    }
+   
+}
+
+@media only screen and (max-width: 428px) {
+    .ImageWithContent-contents{
+        padding: 0 45px;
+    }
+    .ImageWithContent-image{
+        width: 60%;
+        margin-bottom: 10px;
+    }
     .ImageWithContent-background-image {
-        height: 100%;
+        max-height: 820px;
     }
-    .ImageWithContent-container {
-        padding: 0px 50px;
-        height: 900px;
+    .ImageWithContent-heading{
+        font-size: 1.6rem;
+        margin-bottom: 0px;
     }
-    .ImageWithContent-image {
-        height: 50%;
-    }
+   
 }

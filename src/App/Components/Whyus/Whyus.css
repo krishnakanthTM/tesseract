@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     height: 800px;
     flex-direction: column;
 }
@@ -25,4 +25,20 @@
 .whyus-text{
     color: white;
     max-width: 350px;
+}
+.whyus-background-image {
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 428px) and (max-width: 834px) {
+    .whyus-background-image {
+        height: 60%;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .whyus-background-image {
+        height: 70%;
+    }
 }

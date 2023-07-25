@@ -54,7 +54,7 @@
     display: flex;
 }
 
-@media only screen and (min-width: 834px) and (max-width: 1194px) {
+@media only screen and (min-width: 428px) and (max-width: 834px) {
     #topnav-search {
         width: 250px;
         font-size: medium;
