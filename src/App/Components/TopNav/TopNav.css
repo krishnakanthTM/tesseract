@@ -54,6 +54,10 @@
     display: flex;
 }
 
+.topnav-hamberger{
+    display: none;
+}
+
 @media only screen  and (min-width: 720px) {
     #topnav-search {
         width: 250px;
@@ -84,8 +88,8 @@
         margin-right: 60px;
     }
     .topnav-button-1 {
-        font-size: 12px;
-        width: 120px;
+        font-size: 11px;
+        width: 100px;
         height: 40px;
     }
     .topnav-button-2 {
@@ -94,7 +98,17 @@
     .topnav-searchicon {
         filter: invert();
         width: 20px;
-        top: 9px;
-        left: 150px;
+        top: 5px;
+        left: 130px;
+        cursor: pointer;
+    }
+    .topnav-hamberger{
+        display: inline;
+        width: 30px;
+        height: 40px;
+        position: absolute;
+        top: 25px;
+        right : 10px;
+        cursor: pointer;
     }
 }

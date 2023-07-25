@@ -2,6 +2,7 @@ import React from "react";
 import "./TopNav.css";
 import searchIcon from "../../Assets/search.png";
 import logoIcon from "../../Assets/logo.png";
+import menuham from "../../Assets/menuham.png";
 
 function TopNav() {
   return (
@@ -23,7 +24,9 @@ function TopNav() {
             alt="topnav-search-icon"
           />
         </div>
-        <button className="topnav-button-1 tesseract-button-primary">Request a Demo</button>
+        <button className="topnav-button-1 tesseract-button-primary">
+          Request a Demo
+        </button>
         <button
           className="topnav-button-2"
           onClick={() => {
@@ -32,6 +35,7 @@ function TopNav() {
         >
           Login
         </button>
+        <img src={menuham} alt="menuham" className="topnav-hamberger" />
       </div>
     </div>
   );
