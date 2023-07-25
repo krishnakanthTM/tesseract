@@ -26,3 +26,37 @@
     background-color: transparent;
     border: 1px solid white;
 }
+
+@media only screen and (max-width: 428px) {
+    .tesseract-button-primary{
+        color: white;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: rgba(0, 122, 204, 1);
+        border: 0;
+        font-size: 0.8rem;
+    }
+    .tesseract-button-outline{
+        color: white;
+        width: 135px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 0.8rem;
+    }
+   
+}
