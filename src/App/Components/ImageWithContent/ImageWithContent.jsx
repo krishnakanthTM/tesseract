@@ -3,14 +3,25 @@ import "./ImageWithContent.css";
 import rightIcon from "../../Assets/righticon.png";
 import { componentTypes } from "../../Pages/Home/HomePageData";
 import sectionBackground from "../../Assets/sectionBackground.png";
+import heroBackgroundImage from "../../Assets/BackgroundGradiant.png";
 
 function ImageWithContent({ data }) {
-  const textColor =
-    data.type === componentTypes.type2
-      ? { color: "white" }
-      : { color: "black" };
+  const mediaQuery = data.type !== componentTypes.type1 ? {color: "white",flexWrap : "wrap-reverse"} : {flexWrap : "wrap"};
+  // const heroBackgroundStyle = data.type == componentTypes.type0 ?{height: "300px"} : {};
+  // const textColor =
+  //   data.type !== componentTypes.type1
+  //     ? { color: "white" }
+  //     : { color: "black" };
   return (
-    <div className="ImageWithContent-container" style={textColor}>
+    <div className="ImageWithContent-container" style={mediaQuery}>
+      {data.type === componentTypes.type0 && (
+        <img 
+        style={{top: 0, height: '880px'}}
+        src={heroBackgroundImage} 
+        alt="herobackgroundImage.."
+        className="ImageWithContent-background-image"
+        />
+      )}
       {data.type === componentTypes.type2 && (
         <img
           src={sectionBackground}
@@ -42,7 +53,7 @@ function ImageWithContent({ data }) {
             ))}
         </div>
       </div>
-      {data.type === componentTypes.type2 && (
+      {(data.type !== componentTypes.type1) && (
         <img src={data.image} alt="" className="ImageWithContent-image" />
       )}
     </div>

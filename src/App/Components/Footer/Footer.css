@@ -1,24 +1,27 @@
-.footer-container{
+.footer-container {
     background-image: url("../../Assets/footerBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 660px;
     background-position: bottom;
     padding: 100px 15%;
-    display:grid;
+    display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
-.footer-logoicon{
+
+.footer-logoicon {
     width: 64px;
 }
-.footer-top{
+
+.footer-top {
     color: white;
     font-size: 1.5rem;
     font-weight: bolder;
     display: flex;
     align-items: center;
 }
-#footer-mid-input{
+
+#footer-mid-input {
     width: 435px;
     height: 50px;
     padding: 0;
@@ -26,11 +29,12 @@
     border-radius: 5px;
     padding: 0 25px;
 }
-#footer-mid-input::placeholder{
+
+#footer-mid-input::placeholder {
     font-size: large;
-   
 }
-.footer-mid-button{
+
+.footer-mid-button {
     background-color: rgba(0, 122, 204, 1);
     width: 103px;
     height: 50px;
@@ -40,38 +44,75 @@
     border-radius: 5px;
     color: white;
 }
-.footer-mid-button:hover{
+
+.footer-mid-button:hover {
     background-color: rgba(0, 122, 204, 0.8);
 }
-.footer-mid-text{
+
+.footer-mid-text {
     margin-bottom: 10px;
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: grid;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 25px 0;
+    margin: 25px 0px;
 }
-.footer-heading{
+
+.footer-heading {
     color: white;
     /* font-weight: bold; */
     font-size: 1.1rem;
     margin: 15px 0;
 }
-.footer-items{
+
+.footer-items {
     color: rgba(255, 255, 255, 0.5);
     margin-top: 5px;
     cursor: pointer;
 }
-.footer-icons{
+
+.footer-icons {
     margin-right: 10px;
 }
-.footer-mid{
+
+.footer-mid {
     display: flex;
     justify-content: center;
 }
-.pointer{
+
+.pointer {
     cursor: pointer;
+}
+
+
+/*--- Tablet ---*/
+
+@media only screen and (min-width: 834px) and (max-width: 1194px) {
+    .footer-bottom {
+        margin-left: 50px;
+    }
+}
+
+
+/*--- Mobile -- */
+
+@media screen and (max-width: 428px) {
+    .footer-mid-text {
+        font-size: 15px;
+    }
+    #footer-mid-input {
+        width: 230px;
+    }
+    .footer-mid-textbox {
+        width: 450px;
+    }
+    .footer-bottom {
+        grid-template-columns: repeat(auto-fit, 150px);
+        margin: 25px 0px;
+    }
 }

@@ -23,9 +23,9 @@ function TopNav() {
             alt="topnav-search-icon"
           />
         </div>
-        <button className="topnav-button">Request a Demo</button>
+        <button className="topnav-button-1 tesseract-button-primary">Request a Demo</button>
         <button
-          className="topnav-button"
+          className="topnav-button-2"
           onClick={() => {
             window.open("https://pinnacleit.my.salesforce.com/");
           }}

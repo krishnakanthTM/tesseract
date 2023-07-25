@@ -1,10 +1,20 @@
 import saly1 from "../../Assets/Saly-1.png";
 import saly38 from "../../Assets/Saly-38.png";
+import saly10 from "../../Assets/Saly-10.png";
 import person1 from "../../Assets/person1.png";
 import chairMan from "../../Assets/chair.png";
 export const componentTypes = {
+  type0: "heroComponent",
   type1: "rightImageLeftContent",
   type2: "leftImageRightContent",
+};
+
+export const unlockThePowerOfEfficiency = {
+  image: saly10,
+  heading: "Unlock the power of efficiency with Tesseract",
+  text: " Welcome to Tesseract - your all-inclusive solution for NDIS providers, Payroll, and Consultancy businesses. We offer a unified platform on the cloud that optimizes your daily tasks, enhances productivity, and stimulates team cooperation.",
+  buttons: [{title: "Start your free trial", type: "primary"}, {title: "Make an enquiry", type: "outline"}],
+  type: componentTypes.type0,
 };
 
 export const empowerNDISIndustry = {

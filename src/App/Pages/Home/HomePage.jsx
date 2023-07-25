@@ -9,6 +9,7 @@ import rectangle3 from "../../Assets/rectangle3.png";
 import HeroComponent from "../../Components/HeroComponent/HeroComponent";
 import ImageWithContent from "../../Components/ImageWithContent/ImageWithContent";
 import {
+  unlockThePowerOfEfficiency,
   empowerNDISIndustry,
   thePowerOfAdaptiveness,
   humanResources,
@@ -16,12 +17,14 @@ import {
 import Whyus from "../../Components/Whyus/Whyus";
 import BusinessPartners from "../../Components/BusinessPartners/BusinessPartners";
 
+
 function HomePage() {
   return (
     <>
       <TopNav />
       <Navbar />
-      <HeroComponent />
+      {/* <HeroComponent /> */}
+      <ImageWithContent data={unlockThePowerOfEfficiency}/>
       <img src={rectangle} alt="rectangle" className="rectangle" />
       <ImageWithContent data={empowerNDISIndustry} />
       <img src={rectangle2} alt="rectangle2" className="rectangle2" />
