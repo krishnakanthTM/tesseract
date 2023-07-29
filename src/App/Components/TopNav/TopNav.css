@@ -54,11 +54,11 @@
     display: flex;
 }
 
-.topnav-hamberger{
+.topnav-hamberger {
     display: none;
 }
 
-@media only screen  and (min-width: 720px) {
+@media only screen and (min-width: 720px) {
     #topnav-search {
         width: 250px;
         font-size: medium;
@@ -81,6 +81,9 @@
 /*--- Mobile --*/
 
 @media screen and (max-width: 500px) {
+    .topnav-title {
+        display: none;
+    }
     #topnav-search {
         display: none;
     }
@@ -89,26 +92,29 @@
     }
     .topnav-button-1 {
         font-size: 11px;
-        width: 100px;
+        width: 113px;
         height: 40px;
     }
     .topnav-button-2 {
-        display: none;
+        border-radius: 5px;
+        font-size: 12px;
+        width: 100px;
+        height: 40px;
     }
     .topnav-searchicon {
         filter: invert();
         width: 20px;
         top: 5px;
-        left: 130px;
+        left: 260px;
         cursor: pointer;
     }
-    .topnav-hamberger{
+    .topnav-hamberger {
         display: inline;
         width: 30px;
         height: 40px;
         position: absolute;
         top: 25px;
-        right : 10px;
+        right: 10px;
         cursor: pointer;
     }
 }

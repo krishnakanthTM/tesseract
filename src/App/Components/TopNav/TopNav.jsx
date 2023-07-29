@@ -9,7 +9,7 @@ function TopNav() {
     <div className="topNav-container">
       <div className="topnav-logo">
         <img src={logoIcon} className="topnav-logoicon" alt="" />
-        <div>Tesseract</div>
+        <div className="topnav-title">Tesseract</div>
       </div>
       <div className="buttons">
         <div className="searchbox">
