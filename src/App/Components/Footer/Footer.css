@@ -140,10 +140,7 @@
         display: flex;
         flex-wrap: wrap;
     } */
-    .footer-bottom{
-        margin-bottom: 25px;
+    .footer-heading{
+        margin: 12px 0;
     }
-    /* .footer-container{
-        margin-bottom: 25px;
-    } */
 }
