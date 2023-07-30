@@ -70,7 +70,8 @@
         margin-bottom: 10px;
     }
     .ImageWithContent-background-image {
-        max-height: 820px;
+        max-height: 840px;
+        height: 840px;
     }
     .ImageWithContent-heading{
         font-size: 1.6rem;
