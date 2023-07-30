@@ -30,7 +30,7 @@ function TopNav() {
         <button
           className="topnav-button-2"
           onClick={() => {
-            window.open("https://pinnacleit.my.salesforce.com/");
+            window.open("https://pinnacleit.my.site.com/");
           }}
         >
           Login
