@@ -15,10 +15,10 @@ function Whyus() {
       <div className="whyus-header">
         <div className="whyus-subText">Clients love us</div>
         <div className="whyus-heading">Why us</div>
-        <div className="whyus-text">
+        {/* <div className="whyus-text">
           Problems trying to resolve the conflict between the two major realms
           of employment solution
-        </div>
+        </div> */}
       </div>
       <div className="whyus-temp-para">
         Tesseract, your all-in-one cloud-based command center, delivers
