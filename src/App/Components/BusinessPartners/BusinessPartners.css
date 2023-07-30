@@ -5,10 +5,19 @@
     margin-bottom: 85px;
 }
 
-.business-card-item {
+
+/* .business-card-item {
     border: 1px solid gray;
     height: 150px;
     width: 200px;
+} */
+
+#business-card-img {
+    height: 210px;
+}
+
+.business-card-image {
+    height: 180px;
 }
 
 .bussiness-cards {
