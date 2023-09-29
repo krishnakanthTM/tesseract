@@ -2,7 +2,7 @@
     font-weight: bold;
     font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 85px;
+    margin: 45px 0;
 }
 
 
@@ -27,4 +27,21 @@
     margin-bottom: 100px;
     flex-wrap: wrap;
     row-gap: 40px;
+    
+}
+
+@media only screen and (max-width: 740px){
+    .bussiness-heading {
+        font-size: 1.8rem;
+    }
+    .business-card-image {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .business-card-image {
+        height: 100px;
+        max-width: 320px;
+    }
 }

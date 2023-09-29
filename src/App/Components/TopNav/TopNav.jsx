@@ -28,7 +28,7 @@ function TopNav() {
           Request a Demo
         </button>
         <button
-          className="topnav-button-2"
+          className="topnav-button-2 tesseract-button-outline"
           onClick={() => {
             window.open("https://pinnacleit.my.site.com/");
           }}

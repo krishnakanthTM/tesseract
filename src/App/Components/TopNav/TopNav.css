@@ -31,7 +31,8 @@
     width: 25px;
     position: relative;
     left: -50px;
-    top: 5px;
+    top: -3px;
+    cursor: pointer;
 }
 
 .topnav-button-1 {
@@ -58,7 +59,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (max-width: 920px) {
     #topnav-search {
         width: 250px;
         font-size: medium;
@@ -80,10 +81,10 @@
 
 /*--- Mobile --*/
 
-@media screen and (max-width: 500px) {
-    .topnav-title {
+@media screen and (max-width: 740px) {
+    /* .topnav-title {
         display: none;
-    }
+    } */
     #topnav-search {
         display: none;
     }
@@ -116,5 +117,39 @@
         top: 25px;
         right: 10px;
         cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .topnav-title {
+        display: none;
+    }
+}
+@media screen and (max-width: 410px) {
+    .topnav-button-1 {
+        font-size: 11px;
+        width: 113px;
+        height: 30px;
+    }
+    .topnav-button-2 {
+        border-radius: 5px;
+        font-size: 12px;
+        width: 60px;
+        height: 30px;
+    }
+    .buttons{
+        margin-right: 20%;
+    }
+    .topnav-searchicon {
+        left: 780%;
+        top: 1px;
+    }
+}
+@media screen and (max-width: 366px) {
+    .buttons{
+        margin-right: 10%;
+    }
+    .topnav-searchicon {
+        display: none;
     }
 }

@@ -16,7 +16,7 @@
 
 .nav-items {
     width: 115px;
-    height: 50px;
+    /* height: 50px; */
     padding: 6.5px 12px;
     text-align: center;
     display: flex;
@@ -45,7 +45,7 @@
 
 /*--- Mobile ---*/
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 740px) {
     .navbar-container {
         display: none;
     }

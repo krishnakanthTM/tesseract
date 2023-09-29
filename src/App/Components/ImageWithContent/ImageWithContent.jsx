@@ -6,6 +6,11 @@ import sectionBackground from "../../Assets/sectionBackground.png";
 import heroBackgroundImage from "../../Assets/BackgroundGradiant.png";
 
 function ImageWithContent({ data }) {
+  const hrImageStyles =
+    data.heading === "Human Resources"
+      ? "ImageWithContent-image-hr"
+      : "ImageWithContent-image";
+
   const mediaQuery =
     data.type !== componentTypes.type1
       ? { color: "white", flexWrap: "wrap-reverse" }
@@ -34,7 +39,7 @@ function ImageWithContent({ data }) {
       )}
       <div className="ImageWithContent-contents" style={mediaQuery}>
         {data.type === componentTypes.type1 && (
-          <img src={data.image} alt="" className="ImageWithContent-image" />
+          <img src={data.image} alt="" className={hrImageStyles} />
         )}
         <div className="ImageWithContent-content">
           <div className="ImageWithContent-heading">{data.heading}</div>
@@ -58,7 +63,7 @@ function ImageWithContent({ data }) {
           </div>
         </div>
         {data.type !== componentTypes.type1 && (
-          <img src={data.image} alt="" className="ImageWithContent-image" />
+          <img src={data.image} alt="" className={hrImageStyles} />
         )}
       </div>
     </div>
