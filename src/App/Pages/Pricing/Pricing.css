@@ -1,0 +1,29 @@
+.Pricing-Section-1 {
+    height: 689px;
+    background-color: #6600FF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Pricing-Menu-1,
+.Pricing-Menu-2,
+.Pricing-Menu-3,
+.Pricing-Menu-4 {
+    height: 75px;
+    width: 230px;
+    background-color: #DFDCE3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pricing-Menu-title {
+    font-size: 15px;
+}
+
+.Pricing-Section-2 {
+    height: 1000px;
+}

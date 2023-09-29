@@ -1,23 +1,45 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import downicon from "../../Assets/downicon.png";
 
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className="navbar-container">
-      <div className="nav-items">
+      <div
+      onClick={() => { 
+        navigate("/Products");
+      }}
+      className="nav-items">
         Products
         <img className="nav-downArrow" src={downicon} alt="downarrow" />
       </div>
-      <div className="nav-items">
+
+      <div
+      onClick={() => {
+        navigate("/Solutions");
+      }}
+      className="nav-items">
         Solutions
         <img className="nav-downArrow" src={downicon} alt="downarrow" />
       </div>
-      <div className="nav-items">
+
+      <div 
+      onClick={() => {
+        navigate("/Pricing");
+      }}
+      className="nav-items">
         Pricing
         <img className="nav-downArrow" src={downicon} alt="downarrow" />
       </div>
-      <div className="nav-items">Why us</div>
+
+      <div
+      onClick={() => {
+        navigate("Whyus");
+      }}
+      className="nav-items">Why us</div>
+
       <div className="nav-items">Contact us</div>
     </div>
   );
