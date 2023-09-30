@@ -6,10 +6,11 @@ import sectionBackground from "../../Assets/sectionBackground.png";
 import heroBackgroundImage from "../../Assets/BackgroundGradiant.png";
 
 function ImageWithContent({ data }) {
+  console.log(data?.bulletPoints?.length);
   const hrImageStyles =
     data.heading === "Human Resources"
       ? "ImageWithContent-image-hr"
-      : "ImageWithContent-image";
+      : `ImageWithContent-image ${data?.heading?.split(" ")[0] + "-img"}`;
 
   const mediaQuery =
     data.type !== componentTypes.type1
@@ -21,7 +22,12 @@ function ImageWithContent({ data }) {
   //     ? { color: "white" }
   //     : { color: "black" };
   return (
-    <div className="ImageWithContent-container">
+    <div
+      className={
+        "ImageWithContent-container" +
+        ` ImageWithContent-Container-${data?.heading?.split(" ")[0]}`
+      }
+    >
       {data.type === componentTypes.type0 && (
         <img
           style={{ top: 0, minHeight: "880px", height: "880px" }}
@@ -44,6 +50,13 @@ function ImageWithContent({ data }) {
         <div className="ImageWithContent-content">
           <div className="ImageWithContent-heading">{data.heading}</div>
           <div className="ImageWithContent-text">{data.text}</div>
+          {data?.bulletPoints?.length > 0 && (
+            <div className="ImageWithContent-bulletPoints">
+              {data?.bulletPoints?.map((point, index) => (
+                <li key={index}>{point}</li>
+              ))}
+            </div>
+          )}
           <div className="ImageWithContent-buttons">
             {data.buttons.length > 0 &&
               data.buttons.map((item, index) => (

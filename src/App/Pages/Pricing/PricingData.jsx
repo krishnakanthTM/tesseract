@@ -1,0 +1,80 @@
+import lightTick from "../../Assets/Tick-Squareligth.png";
+import darkTick from "../../Assets/Tick-Squaredark.png";
+
+export const HumanResourcesCardData = {
+  title: "Human Resources",
+  price: "$8",
+  bulletPoints: [
+    "Staff Register",
+    "Posting job advertisements",
+    "Interview evaluation",
+    "Referee Checks",
+    "Paperless onboarding",
+    "Contract management",
+    "Training and evaluations",
+    "Rewards and Recognition",
+    "Unlimited document storage",
+    "SMS and Email Notifications",
+    "24/7 Support",
+    "Dedicated Account manager",
+  ],
+  tick: lightTick,
+  theme: "pricing-card-light",
+};
+export const PayrollCardData = {
+  title: "Payroll",
+  price: "$6",
+  bulletPoints: [
+    "Payroll Management",
+    "ATO lodgements",
+    "Superannuation",
+    "Activity Statements",
+    "Tracking expenses",
+    "Generate Invoices",
+    "Unlimited document storage",
+    "SMS and Email Notifications",
+    "24/7 Support",
+    "Dedicated Account manager",
+  ],
+  tick: darkTick,
+  theme: "pricing-card-dark",
+};
+export const RosterManagementCardData = {
+  title: "Roster Management",
+  price: "$6",
+  bulletPoints: [
+    "Employee Rostering",
+    "Auto-scheduling",
+    "Timesheets",
+    "Leave management",
+    "Dashboards",
+    "Reporting and Forecasting",
+    "Signin (Biometric & Geolocation Capture)",
+    "Unlimited document storage",
+    "SMS and Email Notifications",
+    "24/7 Support",
+    "Dedicated Account manager",
+  ],
+  tick: lightTick,
+  theme: "pricing-card-light",
+};
+export const DisabilityProvidersCardData = {
+  title: "Disability Providers",
+  price: "$11",
+  bulletPoints: [
+    "NDIS participants Registry",
+    "Manage services provided to the participants",
+    "Funds tracking",
+    "Generate Invoices",
+    "Set Goals",
+    "BI Reporting",
+    "Issues Register",
+    "Auditing system",
+    "Unlimited document storage",
+    "SMS and Email Notifications",
+    "24/7 Support",
+    "Dedicated Account manager",
+  ],
+  tick: darkTick,
+  theme: "pricing-card-dark",
+};

@@ -8,37 +8,43 @@ function Navbar() {
   return (
     <div className="navbar-container">
       <div
-      onClick={() => { 
-        navigate("/Products");
-      }}
-      className="nav-items">
+        onClick={() => {
+          navigate("/Products");
+        }}
+        className="nav-items"
+      >
         Products
         <img className="nav-downArrow" src={downicon} alt="downarrow" />
       </div>
 
       <div
-      onClick={() => {
-        navigate("/Solutions");
-      }}
-      className="nav-items">
+        onClick={() => {
+          // navigate("/Solutions");
+        }}
+        className="nav-items"
+      >
         Solutions
         <img className="nav-downArrow" src={downicon} alt="downarrow" />
       </div>
 
-      <div 
-      onClick={() => {
-        navigate("/Pricing");
-      }}
-      className="nav-items">
+      <div
+        onClick={() => {
+          navigate("/Pricing");
+        }}
+        className="nav-items"
+      >
         Pricing
         <img className="nav-downArrow" src={downicon} alt="downarrow" />
       </div>
 
       <div
-      onClick={() => {
-        navigate("Whyus");
-      }}
-      className="nav-items">Why us</div>
+        onClick={() => {
+          // navigate("Whyus");
+        }}
+        className="nav-items"
+      >
+        Why us
+      </div>
 
       <div className="nav-items">Contact us</div>
     </div>

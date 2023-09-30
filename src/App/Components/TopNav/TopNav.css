@@ -12,6 +12,7 @@
     font-weight: bolder;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .topnav-logoicon {

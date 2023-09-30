@@ -3,11 +3,13 @@ import "./TopNav.css";
 import searchIcon from "../../Assets/search.png";
 import logoIcon from "../../Assets/logo.png";
 import menuham from "../../Assets/menuham.png";
+import { useNavigate } from "react-router-dom";
 
 function TopNav() {
+  const navigate = useNavigate();
   return (
     <div className="topNav-container">
-      <div className="topnav-logo">
+      <div className="topnav-logo" onClick={() => navigate("/")}>
         <img src={logoIcon} className="topnav-logoicon" alt="" />
         <div className="topnav-title">Tesseract</div>
       </div>

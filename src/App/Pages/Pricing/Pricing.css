@@ -1,29 +1,26 @@
 .Pricing-Section-1 {
-    height: 689px;
+    height:85vh;
     background-color: #6600FF;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 15px;
-}
-
-.Pricing-Menu-1,
-.Pricing-Menu-2,
-.Pricing-Menu-3,
-.Pricing-Menu-4 {
-    height: 75px;
-    width: 230px;
-    background-color: #DFDCE3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Pricing-Menu-title {
-    font-size: 15px;
+    padding: 80px 20vW;
+    color: white;
+    text-align: center;
 }
 
 .Pricing-Section-2 {
-    height: 1000px;
+    margin: 100px 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pricingHeading{
+    margin: 25px 0;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.pricingText{
+    font-weight: bold;
+    max-width: 500px;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 1.2rem;
 }

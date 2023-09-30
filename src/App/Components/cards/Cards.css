@@ -1,0 +1,57 @@
+.pricing-card-light{
+    height: fit-content;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.pricing-card-dark{
+    color: white;
+    background-color: #062F3F;
+    border-radius: 10px;
+
+}
+.card-container{
+    /* z-index: -2; */
+    width:250px ;
+    padding: 25px;
+    height: max-content;
+}
+.card-price{
+    text-align: center;
+}
+#card-list{
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-items: center;
+}
+#price-Tick{
+    margin-right: 10px;
+}
+.card-title{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.card--price{
+    position: relative;
+    top:55px;
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    z-index: 1;
+}
+#price-Bg-Circle{
+    position: relative;
+    bottom: 35px;
+}
+.list-item{
+    display: inline;
+}
+.card-close{
+    background-color: transparent;
+    border: 0;
+    color: #0099FF;
+    text-align: right;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}

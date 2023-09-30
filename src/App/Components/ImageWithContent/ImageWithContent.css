@@ -46,6 +46,12 @@
 .ImageWithContent-image-hr{
     height: 400px;
 }
+.ImageWithContent-bulletPoints{
+    font-size: 0.9rem;
+}
+.ImageWithContent-bulletPoints::before{
+    list-style-type: circle;
+}
 
 /* desktop  */
 
