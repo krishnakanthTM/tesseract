@@ -91,9 +91,14 @@
    
 }
 .page-header{
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
     background-image: url('./App/Assets/BackgroundGradiant.png');
 }
 .page-header-nav{
+    background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     background-image: url('./App/Assets/BackgroundGradiant.png');
     background-position-y: top -90px;
