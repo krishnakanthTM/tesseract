@@ -38,13 +38,22 @@ function Footer() {
         </div>
         <div className="footer-getintouch">
           <div className="footer-heading">Get in Touch</div>
-          <div className="footer-items">Contact us</div>
+          <div
+            className="footer-items"
+            onClick={() =>
+              navigate("/ContactUS", { state: { title: "Contact Us" } })
+            }
+          >
+            Contact us
+          </div>
           <div className="footer-items">Sales</div>
           <div className="footer-items">Report a bug</div>
         </div>
         <div className="footer-product">
           <div className="footer-heading">Product</div>
-          <div className="footer-items">Products</div>
+          <div className="footer-items" onClick={() => navigate("/Products")}>
+            Products
+          </div>
           <div className="footer-items">Solutions</div>
           <div className="footer-items">Integrations</div>
         </div>

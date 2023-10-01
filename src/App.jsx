@@ -17,16 +17,16 @@ import Contactus from "./App/Pages/ContactUs/Contactus";
 function App() {
   return (
     <>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<HomePage/>}/>
-                <Route path="/Products" element={<Products/>}/>
-                <Route path="/Solutions" element={<Solutions/>}/>
-                <Route path="/Pricing" element={<Pricing/>}/>
-                <Route path="/WhyUs" element={<WhyUs/>}/>
-                <Route path="/Contactus" element={<Contactus/>}/>
-            </Routes>
-        </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/Products" element={<Products />} />
+          <Route path="/Solutions" element={<Solutions />} />
+          <Route path="/Pricing" element={<Pricing />} />
+          <Route path="/WhyUs" element={<WhyUs />} />
+          <Route path="/ContactUs" element={<Contactus />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

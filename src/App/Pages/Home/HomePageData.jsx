@@ -13,7 +13,10 @@ export const unlockThePowerOfEfficiency = {
   image: saly10,
   heading: "Unlock the power of efficiency with Tesseract",
   text: " Welcome to Tesseract - your all-inclusive solution for NDIS providers, Payroll, and Consultancy businesses. We offer a unified platform on the cloud that optimizes your daily tasks, enhances productivity, and stimulates team cooperation.",
-  buttons: [{title: "Start your free trial", type: "primary"}, {title: "Make an enquiry", type: "outline"}],
+  buttons: [
+    { title: "Start your free trial", type: "primary" },
+    { title: "Make an enquiry", type: "outline", nav: "ContactUs" },
+  ],
   type: componentTypes.type0,
 };
 
@@ -32,7 +35,7 @@ export const thePowerOfAdaptiveness = {
     "Empower NDIS users with our intuitive 'Participants' module, enabling efficient management of participant registries, capture of services provided, tracking of expenses, and invoice generation. " +
     <br /> +
     "Issues Register - Our user-friendly platform enables staff to quickly report and track issues, ensuring timely resolutions and enhancing collaboration and problem-solving efficiency for a productive workflow.",
-  buttons: [{ title: "Request a Demo", type: "primary" }],
+  buttons: [{ title: "Request a Demo", type: "primary", nav: "ContactUs" }],
   type: componentTypes.type1,
 };
 
@@ -42,7 +45,7 @@ export const humanResources = {
   text: "Redefine your HR operations with Tesseract. Conveniently set up job roles, publicize them on numerous job sites, process applications, and simplify the interview process. Benefit from our effective onboarding, solid contract handling, and efficient employee management. Improve your team's skills with customized training programs and boost their progress with our appraisal system. Engage, appreciate, and incentivize your employees while also accessing company regulations with ease.",
   buttons: [
     { title: "See the demo", type: "primary" },
-    { title: "Make an enquiry", type: "outline" },
+    { title: "Make an enquiry", type: "outline", nav: "ContactUs" },
   ],
   type: componentTypes.type2,
 };

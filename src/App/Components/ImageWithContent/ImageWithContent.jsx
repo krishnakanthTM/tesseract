@@ -4,9 +4,11 @@ import rightIcon from "../../Assets/righticon.png";
 import { componentTypes } from "../../Pages/Home/HomePageData";
 import sectionBackground from "../../Assets/sectionBackground.png";
 import heroBackgroundImage from "../../Assets/BackgroundGradiant.png";
+import { useNavigate } from "react-router-dom";
 
 function ImageWithContent({ data }) {
-  console.log(data?.bulletPoints?.length);
+  const navigate = useNavigate();
+  // console.log(data?.bulletPoints?.length);
   const hrImageStyles =
     data.heading === "Human Resources"
       ? "ImageWithContent-image-hr"
@@ -66,7 +68,14 @@ function ImageWithContent({ data }) {
           <div className="ImageWithContent-buttons">
             {data.buttons.length > 0 &&
               data.buttons.map((item, index) => (
-                <button key={index} className={`tesseract-button-${item.type}`}>
+                <button
+                  key={index}
+                  className={`tesseract-button-${item.type}`}
+                  onClick={() =>
+                    !!item?.nav &&
+                    navigate(item?.nav, { state: { title: item?.title } })
+                  }
+                >
                   {item.title} &nbsp;{" "}
                   {item.type === "outline" ? (
                     <img

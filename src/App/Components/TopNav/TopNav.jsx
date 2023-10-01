@@ -27,7 +27,12 @@ function TopNav() {
               alt="topnav-search-icon"
             />
           </div>
-          <button className="topnav-button-1 tesseract-button-primary">
+          <button
+            className="topnav-button-1 tesseract-button-primary"
+            onClick={() => {
+              navigate("ContactUs", { state: { title: "Request a Demo" } });
+            }}
+          >
             Request a Demo
           </button>
           <button
