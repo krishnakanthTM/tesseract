@@ -12,19 +12,21 @@ import WhyUs from "./App/Pages/WhyUS/WhyUs";
 // import "./App/Assets/Roboto/Roboto-Medium.tff";
 // import "./App/Assets/Roboto/Roboto-Regular.tff";
 // import "./App/Assets/Roboto/Roboto-Thin.tff";
+import Contactus from "./App/Pages/ContactUs/Contactus";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/Products" element={<Products />} />
-          <Route path="/Solutions" element={<Solutions />} />
-          <Route path="/Pricing" element={<Pricing />} />
-          <Route path="/WhyUs" element={<WhyUs />} />
-        </Routes>
-      </BrowserRouter>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage/>}/>
+                <Route path="/Products" element={<Products/>}/>
+                <Route path="/Solutions" element={<Solutions/>}/>
+                <Route path="/Pricing" element={<Pricing/>}/>
+                <Route path="/WhyUs" element={<WhyUs/>}/>
+                <Route path="/Contactus" element={<Contactus/>}/>
+            </Routes>
+        </BrowserRouter>
     </>
   );
 }

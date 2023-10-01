@@ -1,84 +1,85 @@
-
-
-.rectangle{
+.rectangle {
     position: absolute;
     top: 95%;
     left: -20px;
 }
-.rectangle2{
+
+.rectangle2 {
     position: absolute;
     z-index: -10;
-    top:200%;
-    right:0;
+    top: 200%;
+    right: 0;
 }
-.rectangle3{
+
+.rectangle3 {
     position: absolute;
     z-index: -10;
-    top:185%;
-    left:33%;
+    top: 185%;
+    left: 33%;
 }
+
 @media only screen and (min-width: 834px) and (max-width: 1024px) {
-    .rectangle{
+    .rectangle {
         position: absolute;
         top: 95%;
         left: -20px;
     }
-    .rectangle2{
+    .rectangle2 {
         position: absolute;
         z-index: -10;
-        top:200%;
-        right:0;
+        top: 200%;
+        right: 0;
     }
-    .rectangle3{
+    .rectangle3 {
         position: absolute;
         z-index: -10;
-        top:185%;
-        left:33%;
+        top: 185%;
+        left: 33%;
     }
 }
 
 @media only screen and (min-width: 428px) and (max-width: 834px) {
-    .rectangle{
+    .rectangle {
         width: 250px;
         position: absolute;
         top: 55%;
         left: -20px;
     }
-    .rectangle2{
+    .rectangle2 {
         width: 180px;
         position: absolute;
         z-index: -10;
-        top:200%;
+        top: 200%;
         left: 50%;
     }
-    .rectangle3{
+    .rectangle3 {
         width: 250px;
         position: absolute;
         z-index: -10;
-        top:85%;
-        left:45%;
+        top: 85%;
+        left: 45%;
     }
 }
 
-@media only screen and (max-width: 428px){
-    .rectangle{
+@media only screen and (max-width: 428px) {
+    .rectangle {
         width: 150px;
         position: absolute;
         top: 75%;
         left: -20px;
     }
-    .rectangle2{
+    .rectangle2 {
         width: 150px;
         position: absolute;
         z-index: -10;
-        top:200%;
+        top: 200%;
         left: 50%;
     }
-    .rectangle3{
+    .rectangle3 {
         width: 150px;
         position: absolute;
         z-index: -10;
-        top:105%;
-        left:35%;
+        top: 105%;
+        left: 35%;
     }
 }

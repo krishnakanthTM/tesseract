@@ -46,9 +46,12 @@ function Navbar() {
         >
           Why us
         </div>
-
-        <div className="nav-items">Contact us</div>
-      </div>
+      <div
+      onClick={() => {
+        navigate("/Contactus");
+      }}
+      className="nav-items">Contact us</div>
+    </div>
     </div>
   );
 }
