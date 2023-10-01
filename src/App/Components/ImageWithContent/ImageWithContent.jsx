@@ -91,7 +91,13 @@ function ImageWithContent({ data }) {
           </div>
         </div>
         {data.type !== componentTypes.type1 && (
-          <img src={data.image} alt="" className={hrImageStyles} />
+          <img
+            src={data.image}
+            alt=""
+            className={`${hrImageStyles} ImageWithContent-${
+              data?.heading?.split(" ")[0]
+            }`}
+          />
         )}
       </div>
     </div>

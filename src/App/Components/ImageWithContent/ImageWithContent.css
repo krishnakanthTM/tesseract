@@ -60,6 +60,9 @@
     list-style-type: circle;
 }
 
+.ImageWithContent-Unlock{
+    margin: 35px;
+}
 /* desktop  */
 
 @media only screen and(min-width:850px)and (max-width:1040px)and (orientation:landscape){
