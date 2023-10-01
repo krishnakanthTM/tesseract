@@ -33,21 +33,27 @@ function ImageWithContent({ data }) {
           style={{ top: 0, minHeight: "880px", height: "880px" }}
           src={heroBackgroundImage}
           alt="herobackgroundImage.."
-          className="ImageWithContent-background-image"
+          className={`ImageWithContent-background-image `}
         />
       )}
       {data.type === componentTypes.type2 && (
         <img
           src={sectionBackground}
           alt="sectionBackgroundImage"
-          className="ImageWithContent-background-image"
+          className={`ImageWithContent-background-image ImageWithContent-background-image-${
+            data?.heading?.split(" ")[0]
+          }`}
         />
       )}
       <div className="ImageWithContent-contents" style={mediaQuery}>
         {data.type === componentTypes.type1 && (
           <img src={data.image} alt="" className={hrImageStyles} />
         )}
-        <div className="ImageWithContent-content">
+        <div
+          className={`ImageWithContent-content ImageWithContent-content-${
+            data?.heading?.split(" ")[0]
+          }`}
+        >
           <div className="ImageWithContent-heading">{data.heading}</div>
           <div className="ImageWithContent-text">{data.text}</div>
           {data?.bulletPoints?.length > 0 && (

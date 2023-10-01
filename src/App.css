@@ -1,3 +1,27 @@
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),url('./App/Assets/Roboto/Roboto-Black.ttf') format("trueType");
+}
+@font-face {
+    font-family: "Roboto-bold";
+    src: local("Roboto-bold"),url('./App/Assets/Roboto/Roboto-Bold.ttf') format("trueType");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Roboto-medium";
+    src: local("Roboto-medium"),url('./App/Assets/Roboto/Roboto-Medium.ttf') format("trueType");
+}
+@font-face {
+    font-family: "Roboto-normal";
+    src: local("Roboto-normal"),url('./App/Assets/Roboto/Roboto-Regular.ttf') format("trueType");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto-light";
+    src: local("Roboto-light"),url('./App/Assets/Roboto/Roboto-Light.ttf') format("trueType");
+    font-weight: light;
+}
+
 .tesseract-button-primary{
     color: white;
     width: 165px;
@@ -11,6 +35,7 @@
     border-radius: 5px;
     background-color: rgba(0, 122, 204, 1);
     border: 0;
+    font-family: 'Roboto-medium';
 }
 .tesseract-button-primary:hover,.tesseract-button-outline:hover{
     opacity: 0.7;
@@ -28,6 +53,8 @@
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid white;
+    font-family: 'Roboto-medium';
+
 }
 
 @media only screen and (max-width: 428px) {
@@ -65,4 +92,12 @@
 }
 .page-header{
     background-image: url('./App/Assets/BackgroundGradiant.png');
+}
+.page-header-nav{
+    background-repeat: no-repeat;
+    background-image: url('./App/Assets/BackgroundGradiant.png');
+    background-position-y: top -90px;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
 }

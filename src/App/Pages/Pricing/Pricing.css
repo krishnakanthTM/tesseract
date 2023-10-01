@@ -1,5 +1,5 @@
 .Pricing-Section-1 {
-    height:85vh;
+    height:max-content;
     background-color: #6600FF;
     padding: 80px 20vW;
     color: white;
@@ -11,16 +11,17 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    row-gap: 20px;
 }
 .pricingHeading{
     margin: 25px 0;
-    font-weight: bolder;
     font-size: 1.8rem;
+    font-family: "Roboto-bold";
 }
 .pricingText{
-    font-weight: bold;
     max-width: 500px;
     text-align: justify;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Roboto-medium';
 }

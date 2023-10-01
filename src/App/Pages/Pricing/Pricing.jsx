@@ -14,10 +14,8 @@ import {
 const Pricing = () => {
   return (
     <div>
-      <div className="page-header">
-        <TopNav />
-        <Navbar />
-      </div>
+      <TopNav />
+      <Navbar />
       {/* Section-1 */}
       <div className="Pricing-Section-1">
         <div className="pricingHeading">

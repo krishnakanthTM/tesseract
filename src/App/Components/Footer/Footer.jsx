@@ -6,8 +6,10 @@ import twitter from "../../Assets/twitter.png";
 import instagram from "../../Assets/instagram.png";
 import linkedin from "../../Assets/linkedin.png";
 import youtube from "../../Assets/youtube.png";
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
+  const navigate = useNavigate();
   return (
     <div className="footer-container">
       <div className="footer-top">
@@ -28,7 +30,9 @@ function Footer() {
       <div className="footer-bottom">
         <div className="footer-companyfooter">
           <div className="footer-heading">Company Footer</div>
-          <div className="footer-items">About us</div>
+          <div className="footer-items" onClick={() => navigate("/WhyUs")}>
+            About us
+          </div>
           <div className="footer-items">Careers</div>
           <div className="footer-items">Become a partner</div>
         </div>

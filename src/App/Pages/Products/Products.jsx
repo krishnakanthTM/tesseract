@@ -16,10 +16,8 @@ import TopNav from "../../Components/TopNav/TopNav";
 const Products = () => {
   return (
     <div>
-      <div className="page-header">
-        <TopNav />
-        <Navbar />
-      </div>
+      <TopNav />
+      <Navbar />
       <ImageWithContent data={ProductsHero} />
       <ImageWithContent data={StaffManagement} />
       <ImageWithContent data={NDISSector} />

@@ -13,7 +13,7 @@ export const componentTypes = {
 export const ProductsHero = {
   image: saly19,
   heading: "Products",
-  text: " ",
+  text: "Tesseract, our dynamic platform, enables NDIS users to easily manage attendee cataloging, service monitoring, tax management, and invoice management. Stay on top of issues with our integrated issue register and ensure compliance with NDIS protocols using our intuitive auditing tool. Access all the information you need in our user-friendly repository.",
   buttons: [],
   type: componentTypes.type0,
 };

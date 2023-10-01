@@ -5,11 +5,13 @@
     margin-bottom: 100px;
     min-height: 600px;
     /* max-height: 700px; */
+    height: max-content;
 }
 .ImageWithContent-contents{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .ImageWithContent-background-image {
@@ -23,22 +25,26 @@
 .ImageWithContent-content {
     max-width: 450px;
     
+    
 }
 
 .ImageWithContent-heading {
-    font-weight: bold;
     font-size: 2.3rem;
     margin-bottom: 10px;
+    font-family: 'Roboto-bold';
 }
 
 .ImageWithContent-text {
     margin: 20px 0;
     font-size: 0.9rem;
     text-align: justify;
+    font-family: 'Roboto-normal';
+    
 }
 
 .ImageWithContent-buttons {
-    display: flex
+    display: flex;
+    font-family: 'Roboto-medium';
 }
 .ImageWithContent-image{
     width: min-content;
@@ -48,6 +54,7 @@
 }
 .ImageWithContent-bulletPoints{
     font-size: 0.9rem;
+    font-family: 'Roboto-normal';
 }
 .ImageWithContent-bulletPoints::before{
     list-style-type: circle;

@@ -5,10 +5,50 @@
     border-radius: 15px;
 }
 .ImageWithContent-Container-Products{
-    position: relative;
-    /* top: -65px; */
     background-color: #6600FF;
 }
 .Products-img{
     width: 400px;
+}
+@media screen and (max-width:1070px)and (orientation:portrait) {
+    .Staff-img,.Payroll-img,.NDIS-img,.Participant-img,.Assignments-img{
+        transform: scale(0.7);
+    }
+    .ImageWithContent-background-image-NDIS{
+        max-height: 750px;
+    }
+    .ImageWithContent-background-image-Assignments{
+        max-height: 650px;
+    }
+}
+@media only screen and (max-width:810px)and (orientation:portrait){
+    .Staff-img,.Payroll-img,.NDIS-img,.Participant-img,.Assignments-img{
+        transform: scale(0.5);
+    }
+    .ImageWithContent-background-image-NDIS{
+        max-height: 650px;
+    }
+    .ImageWithContent-background-image-Assignments{
+        max-height: 550px;
+    }
+}
+@media only screen and (max-width:500px)and (orientation:portrait){
+ .NDIS-img{position: relative;
+    top: -35px;
+}   
+}
+@media only screen and (max-width:400px) and (orientation:portrait){
+    .ImageWithContent-content-NDIS{
+        position: relative;
+        top: -75px;
+    }
+    .ImageWithContent-content-Assignments{
+        position: relative;
+        top: -75px;
+    }
+    .Assignments-img{
+        position: relative;
+        top: -30px;
+    }
+
 }
