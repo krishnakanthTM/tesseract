@@ -12,9 +12,9 @@ const Contactus = () => {
   return (
     <div className="Contactus">
       <div className="Contactus-navbar">
-        <div className="Contactus-navbar-left">
+        <div className="Contactus-navbar-left" onClick={() => navigate("/")}>
           <div className="Contactus-navbar-logo">
-            <img src={logoIcon} alt="" />
+            <img src={logoIcon} alt="logo-icon" />
           </div>
           <div className="Contactus-navbar-title">Tesseract</div>
         </div>
@@ -88,13 +88,13 @@ const Contactus = () => {
               <input placeholder="Enter value" type="text" />
             </div>
 
-            <div>
+            {/* <div>
               <label className="Contactus-section-form-title" htmlFor="">
                 Role*
               </label>
               <br />
               <input placeholder="Enter value" type="text" />
-            </div>
+            </div> */}
 
             <div>
               <label className="Contactus-section-form-title" htmlFor="">
@@ -104,23 +104,28 @@ const Contactus = () => {
               <input placeholder="Enter value" type="text" />
             </div>
 
-            <div>
+            {/* <div>
               <label className="Contactus-section-form-title" htmlFor="">
                 Country*
               </label>
               <br />
               <input placeholder="Enter value" type="text" />
-            </div>
+            </div> */}
           </div>
 
           <div className="Contactus-termsandconditions">
             <div className="Contactus-termsandconditions-title">
-              <input className="checkbox" type="checkbox" name="" id="" />I have
-              read and agree with the Privacy policy.
+              <input
+                className="tesseract-checkbox"
+                type="checkbox"
+                name=""
+                id=""
+              />
+              I have read and agree with the Privacy policy.
             </div>
 
             <div className="Contactus-termsandconditions-title">
-              <input className="checkbox" type="checkbox" />
+              <input className="tesseract-checkbox" type="checkbox" />
               I consent to receiving marketing promotions/offers and content
               from the Tesseract by email, text, and <br /> social media
               channels about our products, new services and brands.

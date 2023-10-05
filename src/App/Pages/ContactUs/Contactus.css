@@ -13,6 +13,7 @@
 }
 
 .Contactus-navbar-left {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -106,7 +107,10 @@
 .Contactus-termsandconditions-title {
     font-size: 13px;
 }
-
+.tesseract-checkbox{
+    margin-right: 8px;
+    cursor: pointer;
+}
 @media only screen and (max-width:1330px) {
     .Contactus-section-left-img {
         width: 200px;

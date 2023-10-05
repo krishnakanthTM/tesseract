@@ -1,6 +1,8 @@
 .Pricing-Section-1 {
     height:max-content;
-    background-color: #6600FF;
+    background-image: url('../../Assets/BackgroundGradiant.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 80px 20vW;
     color: white;
     text-align: center;

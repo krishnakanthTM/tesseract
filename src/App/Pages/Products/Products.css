@@ -5,10 +5,17 @@
     border-radius: 15px;
 }
 .ImageWithContent-Container-Products{
-    background-color: #6600FF;
+    background-image: url('../../Assets/BackgroundGradiant.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Products-img{
     width: 400px;
+}
+@media screen and (min-width:1081px)and (orientation:landscape) {
+    .ImageWithContent-Container-Participant{
+        margin-top: 225px;
+    }
 }
 @media screen and (max-width:1070px)and (orientation:portrait) {
     .Staff-img,.Payroll-img,.NDIS-img,.Participant-img,.Assignments-img{

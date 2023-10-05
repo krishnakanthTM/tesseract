@@ -1,6 +1,6 @@
 .pricing-card-light{
     height: fit-content;
-    border: 2px solid;
+    border: 2px solid #062F3F;
     border-radius: 10px;
 }
 .pricing-card-dark{

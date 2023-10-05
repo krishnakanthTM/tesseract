@@ -1,5 +1,5 @@
 import lightTick from "../../Assets/Tick-Squareligth.png";
-import darkTick from "../../Assets/Tick-Squaredark.png";
+// import darkTick from "../../Assets/Tick-Squaredark.png";
 
 export const HumanResourcesCardData = {
   title: "Human Resources",
@@ -36,8 +36,8 @@ export const PayrollCardData = {
     "24/7 Support",
     "Dedicated Account manager",
   ],
-  tick: darkTick,
-  theme: "pricing-card-dark",
+  tick: lightTick,
+  theme: "pricing-card-light",
 };
 export const RosterManagementCardData = {
   title: "Roster Management",
@@ -75,6 +75,6 @@ export const DisabilityProvidersCardData = {
     "24/7 Support",
     "Dedicated Account manager",
   ],
-  tick: darkTick,
-  theme: "pricing-card-dark",
+  tick: lightTick,
+  theme: "pricing-card-light",
 };

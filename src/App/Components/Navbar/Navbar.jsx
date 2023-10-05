@@ -48,7 +48,7 @@ function Navbar() {
         </div>
         <div
           onClick={() => {
-            navigate("/Contactus", { state: { title: "Cantact Us" } });
+            navigate("/Contactus", { state: { title: "Contact Us" } });
           }}
           className="nav-items"
         >
