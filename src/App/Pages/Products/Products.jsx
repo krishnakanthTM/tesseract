@@ -1,6 +1,5 @@
 import React from "react";
 import "./Products.css";
-import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import ImageWithContent from "../../Components/ImageWithContent/ImageWithContent";
 import {
@@ -16,8 +15,7 @@ import TopNav from "../../Components/TopNav/TopNav";
 const Products = () => {
   return (
     <div>
-      <TopNav />
-      <Navbar />
+      <TopNav type="secondary" />
       <ImageWithContent data={ProductsHero} />
       <ImageWithContent data={StaffManagement} />
       <ImageWithContent data={NDISSector} />

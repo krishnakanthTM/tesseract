@@ -1,7 +1,6 @@
 import React from "react";
 import "./Pricing.css";
 import Footer from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
 import TopNav from "../../Components/TopNav/TopNav";
 import Cards from "../../Components/cards/Cards";
 import {
@@ -14,8 +13,7 @@ import {
 const Pricing = () => {
   return (
     <div>
-      <TopNav />
-      <Navbar />
+      <TopNav type="secondary" />
       {/* Section-1 */}
       <div className="Pricing-Section-1">
         <div className="pricingHeading">

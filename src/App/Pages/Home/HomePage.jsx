@@ -19,7 +19,7 @@ import BusinessPartners from "../../Components/BusinessPartners/BusinessPartners
 function HomePage() {
   return (
     <>
-      <TopNav />
+      <TopNav type="primary" />
       <Navbar />
       <ImageWithContent data={unlockThePowerOfEfficiency} />
       <img src={rectangle} alt="rectangle" className="rectangle" />
