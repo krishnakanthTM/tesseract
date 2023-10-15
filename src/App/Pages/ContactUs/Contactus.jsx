@@ -1,17 +1,18 @@
 import React from "react";
 import "./Contactus.css";
-import logoIcon from "../../Assets/logo.png";
+// import logoIcon from "../../Assets/logo.png";
 import Footer from "../../Components/Footer/Footer";
 import thanks from "../../Assets/thanks.png";
-import close from "../../Assets/close-button.png";
-import { useNavigate, useLocation } from "react-router-dom";
+// import close from "../../Assets/close-button.png";
+import TopNav from "../../Components/TopNav/TopNav";
+import { useLocation } from "react-router-dom";
 
 const Contactus = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const location = useLocation();
   return (
     <div className="Contactus">
-      <div className="Contactus-navbar">
+      {/* <div className="Contactus-navbar">
         <div className="Contactus-navbar-left" onClick={() => navigate("/")}>
           <div className="Contactus-navbar-logo">
             <img src={logoIcon} alt="logo-icon" />
@@ -26,8 +27,8 @@ const Contactus = () => {
             onClick={() => navigate(-1)}
           />
         </div>
-      </div>
-
+      </div> */}
+      <TopNav type="secondary" />
       <div className="Contactus-section">
         <div className="Contactus-section-left">
           <div className="Contactus-section-left-content">
