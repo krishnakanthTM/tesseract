@@ -7,6 +7,7 @@ import Solutions from "./App/Pages/Solutions/Solutions";
 import Pricing from "./App/Pages/Pricing/Pricing";
 import WhyUs from "./App/Pages/WhyUS/WhyUs";
 import Contactus from "./App/Pages/ContactUs/Contactus";
+import PrivacyPolicy from "./App/Pages/PrivacyPolicy/PrivacyPolicy";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/WhyUs" element={<WhyUs />} />
           <Route path="/ContactUs" element={<Contactus />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -35,6 +35,9 @@ function Footer() {
           </div>
           <div className="footer-items">Careers</div>
           <div className="footer-items">Become a partner</div>
+          <div className="footer-items" onClick={() => navigate("/PrivacyPolicy")}>
+           Privacy Policy
+          </div>
         </div>
         <div className="footer-getintouch">
           <div className="footer-heading">Get in Touch</div>
