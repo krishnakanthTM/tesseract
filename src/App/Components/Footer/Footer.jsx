@@ -29,11 +29,11 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="footer-companyfooter">
-          <div className="footer-heading">Company Footer</div>
+          <div className="footer-heading">Company</div>
           <div className="footer-items" onClick={() => navigate("/WhyUs")}>
             About us
           </div>
-          <div className="footer-items">Careers</div>
+          {/* <div className="footer-items">Careers</div> */}
           <div className="footer-items">Become a partner</div>
           <div className="footer-items" onClick={() => navigate("/PrivacyPolicy")}>
            Privacy Policy

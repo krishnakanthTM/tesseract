@@ -26,7 +26,7 @@ function HomePage() {
       <ImageWithContent data={empowerNDISIndustry} />
       <img src={rectangle2} alt="rectangle2" className="rectangle2" />
       <img src={rectangle3} alt="rectangle3" className="rectangle3" />
-      <ImageWithContent data={humanResources} />
+      <ImageWithContent data={humanResources} framePosition=""/>
       <ImageWithContent data={thePowerOfAdaptiveness} />
       <Whyus />
       <BusinessPartners />

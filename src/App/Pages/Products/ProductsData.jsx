@@ -1,8 +1,18 @@
 import saly19 from "../../Assets/Saly-19.png";
+import HR from "../../Assets/HR.png";
+import SmallScaleLarge from "../../Assets/SmallScaleLarge.png";
+import Mission from "../../Assets/Mission.png";
+import Vision from "../../Assets/Vision.png";
+import MobileApp_1 from "../../Assets/MobileApp_1.png";
+import rm from "../../Assets/rm.png";
 import ndis from "../../Assets/NDIS_1.png";
 import StaffManagementImg from "../../Assets/Staff Management_1.jpg";
-import PayrollImage from "../../Assets/Payroll_1.png";
-import ParticipantRegistryImage from "../../Assets/Participant Registry_1.jpg";
+import PayrollImage from "../../Assets/Payroll.png";
+import ParticipantRegistryImage from "../../Assets/PR.png";
+import RepositoryImg from "../../Assets/Repository.png";
+import MobileApp_2 from "../../Assets/MobileApp_2.png";
+import twentyFourSeven from "../../Assets/24_7.png";
+import issueRegister from "../../Assets/issue-register.png";
 import AssignmentsAlerts from "../../Assets/Alerts.jpg";
 
 export const componentTypes = {
@@ -12,16 +22,68 @@ export const componentTypes = {
 };
 export const ProductsHero = {
   image: saly19,
-  heading: "Products",
-  text: "Tesseract, our dynamic platform, enables NDIS users to easily manage attendee cataloging, service monitoring, tax management, and invoice management. Stay on top of issues with our integrated issue register and ensure compliance with NDIS protocols using our intuitive auditing tool. Access all the information you need in our user-friendly repository.",
-  buttons: [],
+  heading: "Unlock the power of efficiency with Tesseract",
+  text: "Welcome to Tesseract - your all-inclusive solution for NDIS providers, Payroll, and Consultancy businesses. We offer a unified platform on the cloud that optimizes your daily tasks, enhances productivity, and stimulates team cooperation.",
+  buttons: [
+    { title: "Start your free trial", type: "primary" },
+    { title: "Make an enquiry", type: "outline", nav: "/ContactUs" },
+  ],
   type: componentTypes.type0,
 };
 
-export const NDISSector = {
-  image: ndis,
-  heading: "NDIS Sector",
-  text: "Tesseract, our dynamic platform, enables NDIS users to easily manage attendee cataloging, service monitoring, tax management, and invoice management. Stay on top of issues with our integrated issue register and ensure compliance with NDIS protocols using our intuitive auditing tool. Access all the information you need in our user-friendly repository.",
+export const EmpowerBusiness = {
+  image: SmallScaleLarge,
+  heading: "Empowering Small and Medium Businesses",
+  text: "At Tesseract, we understand the everyday challenges faced by small and medium businesses. That's why we've crafted a workforce management application tailored to streamline your operations. Our solution boosts efficiency and simplifies daily tasks, all secured on a robust cloud-based CRM platform.",
+  buttons: [{ title: "Request a demo", type: "primary" }], 
+  type: componentTypes.type1,
+};
+
+export const OurMission = {
+  image: Mission,
+  heading: "Our Mission",
+  text: "To Inspire simplicity by introducing technology that everyone can use.",
+  buttons: [],
+  type: componentTypes.type2,
+};
+
+export const OurVision = {
+  image: Vision,
+  heading: "Our Vision",
+  text: "To be a business that helps businesses with care.",
+  buttons: [], 
+  type: componentTypes.type1,
+};
+
+export const HumanResources = {
+  image: HR,
+  heading: "Human Resources",
+  text: "",
+  bulletPoints: [
+    "Applicant Tracking",
+    "New Hire Onboarding",
+    "Offboarding",    
+    "Performance Management",
+    "Leave Management",
+    "Training",
+    "Rewards and recognition.",
+  ],
+  buttons: [], 
+  type: componentTypes.type2,
+};
+
+export const MobileAppPrimary = {
+  image: MobileApp_1,
+  heading: "Mobile App",
+  text: "Access key features on-the-go with the Tesseract mobile app. Download today from the Apple App Store or Google Play Store and bring efficiency to your fingertips. Free, with unlimited user access.",
+  buttons: [],
+  type: componentTypes.type1,
+};
+
+export const RosterManagement = {
+  image: rm,
+  heading: "Roster Management",
+  text: "Optimize team scheduling with our intuitive roster management tool. Effortlessly create, adjust, and share rosters while keeping labor costs in check.",
   buttons: [],
   type: componentTypes.type2,
 };
@@ -33,7 +95,7 @@ export const StaffManagement = {
   bulletPoints: [
     "Manage staff registry",
     "Create and Post Job Ads",
-    "Recruitment",
+    "Recruitment",    
     "Paperless contact Management",
     "Leave Management",
     "Training and Evaluation",
@@ -46,15 +108,13 @@ export const StaffManagement = {
 export const Payroll = {
   image: PayrollImage,
   heading: "Payroll",
-  text: "Effortlessly run your payroll with Tesseract. Manage payment cycles, expenses, invoices, and generate critical business information from one centralized location.",
+  text: "Simplify payroll processes with our efficient, cloud-based system. Handle payments, superannuation, and reports with ease, all in a few clicks.",
   bulletPoints: [
-    "Process Pay Run",
-    "Generate Payslip",
-    "Capture Expenses",
-    "Generate Invoices",
-    "Generate and Report Activity statement",
-    "Business Intelligence Reporting",
-    "STP Reporting",
+    "STP Compliance",
+    "Invoice Generation",
+    "Expense Tracking",
+    "BAS and IAS Reporting",
+    "Simplified Payroll",
   ],
   buttons: [],
   type: componentTypes.type1,
@@ -64,15 +124,14 @@ export const ParticipantRegistry = {
   image: ParticipantRegistryImage,
   heading: "Participant Registry",
   text: "Welcome to our comprehensive participant and service management system, designed to streamline support and care in programs like the National Disability Insurance Scheme (NDIS). Our platform enables efficient participant record management, real-time funds tracking, automated invoice generation, personalized care plan creation, seamless assessments, and service agreement management. For multi- caregiver scenarios, we offer convenient shift report generation. Our user-friendly software ensures effective care delivery, financial transparency, and compliance with program guidelines. Rest assured, we prioritize data security and privacy to safeguard sensitive information.",
-  bulletPoints: [
-    "Manage participants",
-    "Funds tracker to see how the funds are getting utilized",
-    "Generate Invoices for NDIS",
-    "Create Care Plan",
-    "Conduct Assessments",
-    "Manage service agreements",
-    "Create Shift reports",
-  ],
+  buttons: [{ title: "Request a demo", type: "primary" }], 
+  type: componentTypes.type2,
+};
+
+export const Repository = {
+  image: RepositoryImg,
+  heading: "Repository",
+  text: "Secure and manage your critical documents with Tesseract Repository, enhancing collaboration and information access across your organization.",
   buttons: [],
   type: componentTypes.type1,
 };
@@ -84,4 +143,28 @@ export const AssignmentsAndAlerts = {
   bulletPoints: [],
   buttons: [],
   type: componentTypes.type2,
+};
+
+export const MobileAppSecondary = {
+  image: MobileApp_2,
+  heading: "Mobile App",
+  text: "Access key features on-the-go with the Tesseract mobile app. Download today from the Apple App Store or Google Play Store and bring efficiency to your fingertips. Free, with unlimited user access.",
+  buttons: [],
+  type: componentTypes.type2,
+};
+
+export const Support = {
+  image: twentyFourSeven,
+  heading: "24/7 Support",
+  text: "Our dedicated support team is available around the clock to assist you, ensuring your operations run smoothly without interruption.",
+  buttons: [], 
+  type: componentTypes.type2,
+};
+
+export const IssueRegister = {
+  image: issueRegister,
+  heading: "Issue Register",
+  text: "Track and manage issues efficiently with our comprehensive Issue Register, designed to support project management through detailed tracking and updates.",
+  buttons: [],
+  type: componentTypes.type1,
 };

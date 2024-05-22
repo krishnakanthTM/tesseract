@@ -32,6 +32,7 @@
     font-size: 2.3rem;
     margin-bottom: 10px;
     font-family: 'Roboto-bold';
+    line-height: 52.73px;
 }
 
 .ImageWithContent-text {
@@ -63,6 +64,36 @@
 .ImageWithContent-Unlock{
     margin: 35px;
 }
+.ImageWithContent-text-Mission{
+font-weight: 400;
+font-size: 36px;
+text-align:left;
+line-height: 42.19px;
+}
+.ImageWithContent-bulletPoints-HumanResource{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.19px;
+    width: 530px;
+    padding-left: 20px;
+}
+.ImageWithContent-contents-MobileAppPrimary, .ImageWithContent-content-Payroll{
+font-weight: 700;
+}
+.ImageWithContent-MobileAppPrimary{
+width: 501px;
+height: 441px;
+margin: 0 60px;
+}
+.ImageWithContent-content-MobileAppPrimary,.ImageWithContent-text-Repository{
+    text-align: left;
+    font-weight: 700;
+}
+.ImageWithContent-content-Support, .ImageWithContent-content-IssueRegister {
+    margin: 0 60px;
+    font-weight: 700;
+}
+
 /* desktop  */
 
 @media only screen and(min-width:850px)and (max-width:1040px)and (orientation:landscape){

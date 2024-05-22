@@ -6,14 +6,15 @@ import sectionBackground from "../../Assets/sectionBackground.png";
 import heroBackgroundImage from "../../Assets/BackgroundGradiant.png";
 import { useNavigate } from "react-router-dom";
 
-function ImageWithContent({ data }) {
+function ImageWithContent({ data, frame, framePosition }) {
+  frame = frame || data?.heading?.split(" ")[0] ;
+  framePosition = framePosition || '';
   const navigate = useNavigate();
   // console.log(data?.bulletPoints?.length);
   const hrImageStyles =
-    data.heading === "Human Resources"
+    data.heading === "Human Resources" && framePosition == ""
       ? "ImageWithContent-image-hr"
-      : `ImageWithContent-image ${data?.heading?.split(" ")[0] + "-img"}`;
-
+      : `ImageWithContent-image ${frame + "-img"}`;
   const mediaQuery =
     data.type !== componentTypes.type1
       ? { color: "white", flexWrap: "wrap-reverse" }
@@ -27,7 +28,7 @@ function ImageWithContent({ data }) {
     <div
       className={
         "ImageWithContent-container" +
-        ` ImageWithContent-Container-${data?.heading?.split(" ")[0]}`
+        ` ImageWithContent-Container-${frame}`
       }
     >
       {data.type === componentTypes.type0 && (
@@ -38,28 +39,44 @@ function ImageWithContent({ data }) {
           className={`ImageWithContent-background-image `}
         />
       )}
+      
       {data.type === componentTypes.type2 && (
         <img
           src={sectionBackground}
           alt="sectionBackgroundImage"
           className={`ImageWithContent-background-image ImageWithContent-background-image-${
-            data?.heading?.split(" ")[0]
+            frame
           }`}
         />
       )}
       <div className="ImageWithContent-contents" style={mediaQuery}>
-        {data.type === componentTypes.type1 && (
+        {data.type === componentTypes.type1 && framePosition == "" && (
           <img src={data.image} alt="" className={hrImageStyles} />
+        )}
+         {data.type === componentTypes.type2 && framePosition == "ImgTxt" && (
+          <img src={data.image} alt="" className={hrImageStyles} 
+          />
+        )}
+        {data.type !== componentTypes.type2 && data.type !== componentTypes.type1 && (
+          <img src={data.image} alt="" className={hrImageStyles}
+          style={{  height: "492px", width: "489px",     margin: "0 60px" }}
+          />
         )}
         <div
           className={`ImageWithContent-content ImageWithContent-content-${
-            data?.heading?.split(" ")[0]
+            frame
           }`}
         >
           <div className="ImageWithContent-heading">{data.heading}</div>
-          <div className="ImageWithContent-text">{data.text}</div>
+          {data.type !== '' && (
+          <div className={`ImageWithContent-text ImageWithContent-text-${
+            frame
+          }`}>{data.text}</div>
+          )}
           {data?.bulletPoints?.length > 0 && (
-            <div className="ImageWithContent-bulletPoints">
+            <div className={`ImageWithContent-bulletPoints ImageWithContent-bulletPoints-${
+              frame
+            }`}>
               {data?.bulletPoints?.map((point, index) => (
                 <li key={index}>{point}</li>
               ))}
@@ -90,12 +107,21 @@ function ImageWithContent({ data }) {
               ))}
           </div>
         </div>
-        {data.type !== componentTypes.type1 && (
+        {data.type === componentTypes.type2 && framePosition == "" && (
           <img
             src={data.image}
             alt=""
             className={`${hrImageStyles} ImageWithContent-${
-              data?.heading?.split(" ")[0]
+              frame
+            }`}
+          />
+        )}
+        {data.type === componentTypes.type1 && framePosition == "TxtImg" && (
+          <img
+            src={data.image}
+            alt=""
+            className={`${hrImageStyles} ImageWithContent-${
+              frame
             }`}
           />
         )}
