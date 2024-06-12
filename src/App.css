@@ -22,6 +22,14 @@
     font-weight: light;
 }
 
+body {
+    position: relative;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: scroll;
+  }
+
 .tesseract-button-primary{
     color: white;
     width: 165px;
@@ -35,7 +43,12 @@
     border-radius: 5px;
     background-color: rgba(0, 122, 204, 1);
     border: 0;
-    font-family: 'Roboto-medium';
+    /* font-family: 'Roboto-medium'; */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
 }
 .tesseract-button-primary:hover,.tesseract-button-outline:hover{
     opacity: 0.7;
@@ -53,8 +66,12 @@
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid white;
-    font-family: 'Roboto-medium';
-
+    /* font-family: 'Roboto-medium'; */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
 }
 
 @media only screen and (max-width: 428px) {

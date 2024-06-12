@@ -44,6 +44,10 @@
     margin-left: 15px;
     border-radius: 5px;
     color: white;
+    font-family: Roboto-medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
 }
 
 .footer-mid-button:hover {
@@ -53,8 +57,11 @@
 .footer-mid-text {
     margin-bottom: 10px;
     color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
 }
 .footer-mid-textbox {
     display: flex;
@@ -73,12 +80,22 @@
     /* font-weight: bold; */
     font-size: 1.1rem;
     margin: 15px 0;
+    font-family: Roboto-medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
 }
 
 .footer-items {
     color: rgba(255, 255, 255, 0.5);
     margin-top: 5px;
     cursor: pointer;
+    font-family: Roboto-medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
 }
 
 .footer-icons {
@@ -94,6 +111,17 @@
     cursor: pointer;
 }
 
+.footer-copyrights {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
 
 /*--- Tablet ---*/
 
@@ -176,5 +204,18 @@
     .footer-mid{
         position: relative;
         right: 10%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 460px) {
+    .footer-container {
+        height: 730px;
+    }
+
+    .footer-copyrights {
+        color: white;
+        display: flex;
+        justify-content: start;
+        align-items: start;
     }
 }

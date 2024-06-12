@@ -22,22 +22,22 @@ function Footer() {
             Subscribe to our news letter for updates
           </div>
           <div className="footer-mid-textbox">
-            <input type="text" id="footer-mid-input" placeholder="text" />
+            <input type="text" id="footer-mid-input" placeholder="Enter your email address" />
             <button className="footer-mid-button">Subscribe</button>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
         <div className="footer-companyfooter">
-          <div className="footer-heading">Company</div>
+          <div className="footer-heading">About</div>
           <div className="footer-items" onClick={() => navigate("/WhyUs")}>
             About us
           </div>
           {/* <div className="footer-items">Careers</div> */}
           <div className="footer-items">Become a partner</div>
-          <div className="footer-items" onClick={() => navigate("/PrivacyPolicy")}>
+          {/* <div className="footer-items" onClick={() => navigate("/PrivacyPolicy")}>
            Privacy Policy
-          </div>
+          </div> */}
         </div>
         <div className="footer-getintouch">
           <div className="footer-heading">Get in Touch</div>
@@ -53,12 +53,13 @@ function Footer() {
           <div className="footer-items">Report a bug</div>
         </div>
         <div className="footer-product">
-          <div className="footer-heading">Product</div>
+          <div className="footer-heading">Products</div>
           <div className="footer-items" onClick={() => navigate("/Products")}>
-            Products
+          NDIS Industry
           </div>
-          <div className="footer-items">Solutions</div>
-          <div className="footer-items">Integrations</div>
+          <div className="footer-items">Payroll Companies</div>
+          <div className="footer-items">Consulting Services</div>
+          <div className="footer-items">Our Services</div>
         </div>
         <div className="footer-connect">
           <div className="footer-heading">Connect</div>
@@ -83,6 +84,9 @@ function Footer() {
             Youtube
           </div>
         </div>
+      </div>
+      <div className="footer-copyrights">
+        <p>Copy right @Tesseractapps 2023</p>
       </div>
     </div>
   );

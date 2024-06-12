@@ -10,8 +10,7 @@
 .ImageWithContent-contents{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .ImageWithContent-background-image {
@@ -40,7 +39,6 @@
     font-size: 0.9rem;
     text-align: justify;
     font-family: 'Roboto-normal';
-    
 }
 
 .ImageWithContent-buttons {
@@ -81,9 +79,9 @@ line-height: 42.19px;
 font-weight: 700;
 }
 .ImageWithContent-MobileAppPrimary{
-width: 501px;
-height: 441px;
-margin: 0 60px;
+    width: 501px;
+    height: 441px;
+    margin: 0 60px;
 }
 .ImageWithContent-content-MobileAppPrimary,.ImageWithContent-text-Repository{
     text-align: left;

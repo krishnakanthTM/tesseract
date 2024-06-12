@@ -11,10 +11,10 @@ function ImageWithContent({ data, frame, framePosition }) {
   framePosition = framePosition || '';
   const navigate = useNavigate();
   // console.log(data?.bulletPoints?.length);
-  const hrImageStyles =
-    data.heading === "Human Resources" && framePosition == ""
+  const hrImageStyles = data.heading === "Human Resources" && framePosition == ""
       ? "ImageWithContent-image-hr"
       : `ImageWithContent-image ${frame + "-img"}`;
+      console.log("hrImageStyles",hrImageStyles);
   const mediaQuery =
     data.type !== componentTypes.type1
       ? { color: "white", flexWrap: "wrap-reverse" }

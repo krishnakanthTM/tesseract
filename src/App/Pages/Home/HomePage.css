@@ -1,28 +1,916 @@
 .rectangle {
     position: absolute;
-    top: 95%;
-    left: -20px;
+    top: 80%;
+    left: -105px;
 }
 
 .rectangle2 {
     position: absolute;
-    z-index: -10;
-    top: 200%;
-    right: 0;
+    z-index: -3;
+    opacity: 0.1;
+    top: 122%;
+    right: 2px;
 }
 
 .rectangle3 {
     position: absolute;
     z-index: -10;
-    top: 185%;
-    left: 33%;
+    top: 180%;
+    left: 16%;
 }
 
+.rectangle4 {
+    display: none;
+}
+
+.rectangleIpad1 {
+    display: none;
+}
+
+.rectangleIpad2 {
+    display: none;
+}
+
+.clientTriangle1 {
+    position: absolute;
+    z-index: -10;
+    top: 39%;
+    right: 7%;
+    opacity: 0.5;
+}
+
+.clientTriangle2 {
+    position: absolute;
+    z-index: -10;
+    top: 62%;
+    left: 4%;
+}
+
+.HomeIntroductionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    min-height: 600px;
+    /* max-height: 700px; */
+    height: max-content;
+}
+
+.HomeIntroduction-backgroundImage1 {
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    min-height: 880px;
+    height: 880px;
+}
+
+.HomeIntroduction {
+    display: flex;
+    position: relative;
+    top: -3rem;
+}
+
+.HomeIntroduction-content {
+    max-width: 450px;
+    margin-top: 6rem;
+}
+
+.HomeIntroduction-heading{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52.73px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.HomeIntroduction-text {
+    margin: 20px 0;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: white;
+}
+
+.HomeIntroduction-buttons {
+    display: flex;
+}
+
+.HomeIntroduction-imageContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    img {
+        height: 450px;
+        width: 450px;
+        margin: 0 60px;
+    }
+}
+/* .ImageWithContent-text {
+    margin: 20px 0;
+    font-size: 0.9rem;
+    text-align: justify;
+    font-family: 'Roboto-normal';
+    color: white;
+}
+
+.ImageWithContent-heading {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    font-family: 'Roboto-bold';
+    line-height: 52.73px;
+    color: white;
+} */
+
+.HomeIndustries_container {
+    min-height: 500px;
+    max-height: 600px;
+    height: max-content;
+    margin-top: 10rem;
+    h1 {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        text-align: center;
+    }
+}
+
+.HomeIndustries_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 16%;
+}
+
+.HomeIndustries_sections {
+    width: 35%;
+    
+    h3 {
+        color: #007ACC;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23.44px;
+        text-align: left;
+    }
+
+    p {
+        font-family: Roboto-medium;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 18.75px;
+        text-align: left;
+    }
+}
+
+.HomeIndustries_buttons {
+    color: black;
+    width: 105px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #DFDCE3;
+    border: 0;
+    font-family: 'Roboto-medium';
+}
+
+.HomeServices_container {
+    color: white;
+    min-height: 700px;
+    max-height: 800px;
+    height: max-content;
+    position: relative;
+    h1 {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        text-align: center;
+        padding-top: 6rem;
+    }
+}
+
+.HomeServices_background {
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    min-height: 700px;
+    height: 700px;
+}
+
+.HomeServices_content {
+    margin-left: 7rem;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 58vh; */
+    position: absolute;
+    top: 3rem;
+    padding: 0 20px;
+}
+
+.column1 {
+    margin: 0 70px;
+}
+
+.column2 {
+    margin: 0 70px;
+    margin-top: -50px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: Fixed (510px)px;
+    height: Hug (55px)px;
+    padding: 16px 20px 16px 20px;
+    gap: 16px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    line-height: 2.5rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+.handsWithCare {
+    top: 19rem;
+    right: 0;
+    height: 410px;
+    width: 430px;
+    position: absolute;
+}
+
+/*Home Client */
+
+.HomeClients_container {
+    color: black;
+    margin-top: -2rem;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.HomeClients_header {
+    text-align: center;
+    position: relative;
+    top: -12rem;
+    h1 {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        width: 350px;
+        font-family: Roboto-medium;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+}
+
+.HomeClients_content {
+    position: absolute;
+    top: 12rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeClients_cards1 {
+    box-shadow: 0px 0px 4px 0px #00000040;
+    background: white;
+    border-radius: 8px;
+    padding: 40px 65px;
+    text-align: center;
+    width: 350px !important;
+    position: relative;
+    top: 2em;
+    left: 1em;
+    right: 1em;
+}
+
+.HomeClients_cards2 {
+    box-shadow: 0px 0px 4px 0px #00000040;
+    background: white;
+    border-radius: 8px;
+    padding: 40px 65px;
+    text-align: center;
+    width: 350px !important;
+    position: relative;
+    top: 2em;
+    left: 1em;
+    right: 1em;
+}
+
+.HomeClients_cards3 {
+    box-shadow: 0px 0px 4px 0px #00000040;
+    background: white;
+    border-radius: 8px;
+    padding: 40px 65px;
+    text-align: center;
+    width: 350px !important;
+    position: relative;
+    top: 2em;
+    left: 1em;
+    right: 1em;
+}
+
+/* .cards_carousel {
+    display: flex;
+    flex-direction: row;
+} */
+
+.stars {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container {
+    width:1200px;
+}
+
+.slick-arrow {
+    color: black;
+    background-color: black;
+}
+
+.slick-track {
+    height: 1170px;
+}
+
+.slick-slider {
+    height: 420px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .carousel {
+    position: relative;
+    height: 400px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+} */
+
+.user-photo {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #23A6F0;
+}
+
+.user-role {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+.column1 {
+    margin: 0 70px;
+    
+    .item:nth-child(6),.item:nth-child(7),.item:nth-child(8),.item:nth-child(9) {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 460px) {
+    .HomeIntroductionContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        min-height: 800px;
+        /* max-height: 700px; */
+        height: max-content;
+    }
+
+    .HomeIntroduction-backgroundImage1 {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 1170px;
+        height: 1170px;
+    }
+
+    .HomeIntroduction {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .HomeIntroduction-content {
+        max-width: 330px;
+        margin-top: 3rem;
+    }
+
+    .HomeIntroduction-imageContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        img {
+            height: 315px;
+            width: 315px;
+            margin: 4rem 10px 0 10px;
+        }
+    }
+
+    .rectangle {
+        width: 150px;
+        position: absolute;
+        top: 112%;
+        left: -45px;
+    }
+
+    .rectangleMobile {
+        width: 94px;
+        position: absolute;
+        top: 128%;
+        right: -30px;
+    }
+
+    .rectangleMobile2 {
+        width: 94px;
+        position: absolute;
+        top: 234%;
+        left: 70px;
+        opacity: 0.5;
+        z-index: -10;
+    }
+
+    .rectangleMobile3 {
+        width: 127px;
+        position: absolute;
+        top: 231%;
+        right: 0px;
+        opacity: 0.5;
+        z-index: -10;
+    }
+
+    .rectangle4,.rectangle3 {
+        display: none;
+    }
+
+    .HomeIndustries_content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 8% 8%;
+    }
+    .HomeIndustries_sections {
+        width: 100%;
+        margin-bottom: 2rem;
+        h3 {
+            color: #007ACC;
+            font-weight: 600;
+        }
+    }
+
+    .HomeIndustries_container {
+        min-height: 850px;
+        max-height: 850px;
+        height: max-content;
+        margin-top: 15rem;
+        h1 {
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+    .HomeServices_container {
+        color: white;
+        min-height: 1100px;
+        max-height: 1200px;
+        height: max-content;
+        position: relative;
+        h1 {
+            padding-top: 8rem;
+        }
+    }
+
+    .HomeServices_background {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        top: 0;
+        min-height: 1100px;
+        height: 1100px;
+    }
+
+    .container {
+        height: 58vh;
+    }
+    .column2 {
+        display: none;
+    }
+    .HomeServices_content {
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .clientTriangle1,.clientTriangle2,.rectangle3,.handsWithCare {
+        display: none;
+    }
+
+    .column1 {
+        margin: 0 40px;
+
+        .item:nth-child(6),.item:nth-child(7),.item:nth-child(8),.item:nth-child(9) {
+            display: block;
+        }
+    }
+
+    .item {
+        line-height: 2rem;
+    }
+
+    .HomeClients_container {
+        height: 750px;
+    }
+
+    .HomeClients_content {
+        position: absolute;
+        top: 22rem;
+    }
+
+    .slider-container {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .HomeIntroduction {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .HomeIntroduction-heading {
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.5px;
+        text-align: left;
+    }
+    .HomeIntroduction-content {
+        max-width: 450px;  
+    }
+    .HomeIntroduction-backgroundImage1 {
+        height: 1060px;
+    }
+    .HomeIntroduction-content {
+        margin-top: 2rem;
+    }
+    .HomeIntroduction-imageContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        img {
+            height: 550px;
+            width: 550px;
+            margin: -56px 60px;
+            transform: scale(0.7);
+        }
+    }
+    .HomeIndustries_content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 6% 16%;
+    }
+    .HomeIndustries_sections {
+        width: 100%;
+        margin-bottom: 2rem;
+        h3 {
+            color: #007ACC;
+            font-family: Roboto;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 37.5px;
+        }
+    }
+    .HomeIndustries_container {
+        min-height: 800px;
+        max-height: 800px;
+        height: max-content;
+        position: relative;
+        top: 3rem;
+        h1 {
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    .HomeServices_container {
+        color: white;
+        min-height: 800px;
+        max-height: 800px;
+        height: max-content;
+        position: relative;
+    }
+
+    .HomeServices_background {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 800px;
+        height: 800px;
+    }
+
+    .HomeClients_header {
+        text-align: center;
+        margin: -17rem 0 7px 0;
+    }
+
+    .HomeClients_container {
+        top: 9rem;
+    }
+
+    .HomeClients_content {
+        position: absolute;
+        top: 6rem;
+    }
+
+    .container {
+        height: 0;
+        position: absolute;
+        top: 17rem;
+        left: 8rem;
+    }
+    .column2 {
+        display: none;
+    }
+    .HomeServices_content {
+        margin-left: -8rem;
+        position: relative;
+    }
+    .clientTriangle1,.clientTriangle2,.rectangle3,.handsWithCare {
+        display: none;
+    }
+
+    .column1 {
+        margin: 0 70px;
+    
+        .item:nth-child(6),.item:nth-child(7),.item:nth-child(8),.item:nth-child(9) {
+            display: block;
+        }
+    }
+}
+
+/* @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    /* .ImageWithContent-image{ 
+        transform: scale(0.7);
+        margin: 0;
+    }
+    .ImageWithContent-image-hr{
+        transform: scale(0.7);
+    } 
+    .HomeIntroduction {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .HomeIntroduction-content {
+        max-width: 550px;  
+    }
+    .HomeIntroduction-backgroundImage1 {
+        height: 1000px;
+    }
+    .HomeIntroduction-content {
+        margin-top: 2rem;
+    }
+    .HomeIntroduction-imageContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        img {
+            height: 550px;
+            width: 550px;
+            margin: -56px 60px;
+            transform: scale(0.7);
+        }
+    }
+    .HomeIndustries_content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 6% 16%;
+    }
+    .HomeIndustries_sections {
+        width: 100%;
+        margin-bottom: 2rem;
+        h3 {
+            color: #007ACC;
+            font-weight: 600;
+        }
+    }
+    .HomeIndustries_container {
+        min-height: 700px;
+        max-height: 750px;
+        height: max-content;
+        margin-top: 10rem;
+        h1 {
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+    .HomeServices_container {
+        color: white;
+        min-height: 700px;
+        max-height: 800px;
+        height: max-content;
+        position: relative;
+    }
+
+    .HomeServices_background {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 750px;
+        height: 750px;
+    }
+
+    .HomeClients_header {
+        text-align: center;
+        margin: -25rem 0 7px 0;
+    }
+
+    .HomeClients_container {
+        margin-top: 8rem;
+    }
+
+    .container {
+        height: 39vh;
+    }
+    .column2 {
+        display: none;
+    }
+    .HomeServices_content {
+        margin-left: -8rem;
+    }
+    .clientTriangle1,.clientTriangle2,.rectangle3,.handsWithCare {
+        display: none;
+    }
+
+    .column1 {
+        margin: 0 70px;
+    
+        .item:nth-child(6),.item:nth-child(7),.item:nth-child(8),.item:nth-child(9) {
+            display: block;
+        }
+    }
+} */
+
+@media only screen and (min-width: 1366px) and (min-height: 1024px) {
+    .rectangle {
+        position: absolute;
+        top: 57%;
+        left: -105px;
+    }
+
+    .rectangle3 {
+        position: absolute;
+        z-index: -10;
+        top: 123%;
+        left: 16%;
+    }
+
+    .rectangle2 {
+        position: absolute;
+        z-index: -3;
+        opacity: 0.1;
+        top: 88%;
+        right: 2px;
+    }
+
+    .handsWithCare {
+        position: absolute;
+        top: 19rem;
+        right: 0;
+        height: 360px;
+        width: 380px;
+    }
+
+    .HomeServices_container {
+        color: white;
+        min-height: 700px;
+        max-height: 800px;
+        height: max-content;
+        position: relative;
+    }
+
+    .HomeServices_background {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 650px;
+        height: 650px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 3rem;
+        padding: 0 20px;
+    }
+
+    .column1 {
+        margin: 0 70px;
+
+        .item:nth-child(6),.item:nth-child(7),.item:nth-child(8),.item:nth-child(9) {
+            display: none;
+        }
+    }
+
+    .HomeIndustries_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4% 13%;
+    }
+
+    .clientTriangle1 {
+        position: absolute;
+        z-index: -10;
+        top: 39%;
+        right: 2%;
+        opacity: 0.5;
+    }
+    
+    .clientTriangle2 {
+        position: absolute;
+        z-index: -10;
+        top: 62%;
+        left: 4%;
+    }
+}
 @media only screen and (min-width: 834px) and (max-width: 1024px) {
     .rectangle {
         position: absolute;
-        top: 95%;
-        left: -20px;
+        top: 49%;
+        left: -120px;
     }
     .rectangle2 {
         position: absolute;
@@ -36,9 +924,31 @@
         top: 185%;
         left: 33%;
     }
+    .rectangle4 {
+        display: block;
+        position: absolute;
+        z-index: -10;
+        top: 51%;
+        right: 5%;
+    }
+    .rectangleIpad1 {
+        display: block;
+        position: absolute;
+        z-index: 99;
+        top: 140%;
+        left: 0%;
+    }
+    .rectangleIpad2 {
+        display: block;
+        position: absolute;
+        z-index: 99;
+        top: 161%;
+        right: 0%;
+    }
 }
 
-@media only screen and (min-width: 428px) and (max-width: 834px) {
+
+/* @media only screen and (min-width: 428px) and (max-width: 834px) {
     .rectangle {
         width: 250px;
         position: absolute;
@@ -59,9 +969,9 @@
         top: 85%;
         left: 45%;
     }
-}
+} */
 
-@media only screen and (max-width: 428px) {
+/* @media only screen and (max-width: 428px) {
     .rectangle {
         width: 150px;
         position: absolute;
@@ -81,5 +991,22 @@
         z-index: -10;
         top: 105%;
         left: 35%;
+    }
+} */
+
+@media only screen and(min-width:850px)and (max-width:1040px)and (orientation:landscape){
+    .ImageWithContent-image{
+        transform: scale(0.7);
+        margin: 0;
+    }
+    .ImageWithContent-image-hr{
+        transform: scale(0.7);
+    }
+    .ImageWithContent-container {
+
+    }
+    .Home_Introduction {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
