@@ -1,5 +1,5 @@
-import React from "react";
-import "./HomePage.css";
+import React, { useState, useEffect } from 'react';
+import "./HomePage.scss";
 import Navbar from "../../Components/Navbar/Navbar";
 import TopNav from "../../Components/TopNav/TopNav";
 import Footer from "../../Components/Footer/Footer";
@@ -38,17 +38,30 @@ import rightIcon from "../../Assets/righticon.png";
 import Slider from "react-slick";
 import "../../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
-import { isMobile } from 'react-device-detect';
 
 function HomePage() {
-  const data = [{userName: "client1", content:"Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",clientName: "Regina Miles", role: "Designer",clientImg: client1},{userName: "client2", content:"Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",clientName: "Regina Miles", role: "Designer",clientImg: client2},{userName: "client3", content:"Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",clientName: "Regina Miles", role: "Designer",clientImg: client3}];
-  const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: isMobile ? 1 : 3,
-      slidesToScroll: 1
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
     };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: width <= 1024 ? 1 : 3,
+    slidesToScroll: 1
+  };
+  console.log("width",width)
   
   return (
     <>
@@ -74,10 +87,9 @@ function HomePage() {
           </div>
         </div>
       </div>
-      {/* <ImageWithContent data={unlockThePowerOfEfficiency} /> */}
-      {/* <img src={rectangle} alt="rectangle" className="rectangle" />
+      <img src={rectangle} alt="rectangle" className="rectangle" />
       <img src={rectangle4} alt="rectangle4" className="rectangle4" />
-      <img src={rectangleMobile} alt="rectangleMobile" className="rectangleMobile" /> */}
+      {/* <img src={rectangleMobile} alt="rectangleMobile" className="rectangleMobile" /> */}
       {/** Industries Container */}
       <div className="HomeIndustries_container">
         <h1>Industries we serve</h1>

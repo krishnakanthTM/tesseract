@@ -86,7 +86,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-copyrights">
-        <p>Copy right @Tesseractapps 2023</p>
+        <p>Copy right @Tesseractapps 2024</p>
       </div>
     </div>
   );
