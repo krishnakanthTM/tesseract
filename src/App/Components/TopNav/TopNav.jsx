@@ -58,7 +58,8 @@ function TopNav({ type }) {
                 }}
                 className="nav-items"
               >
-                Why us
+                {/* Why us */}
+                About us
               </div>
               <div
                 onClick={() => {
@@ -72,7 +73,7 @@ function TopNav({ type }) {
           </div>
         )}
         <div className="buttons">
-          <div className="searchbox">
+          {/* <div className="searchbox">
             {type !== "secondary" && (
               <input
                 id="topnav-search"
@@ -89,7 +90,7 @@ function TopNav({ type }) {
               }
               alt="topnav-search-icon"
             />
-          </div>
+          </div> */}
           <button
             className="topnav-button-1 tesseract-button-primary"
             onClick={() => {

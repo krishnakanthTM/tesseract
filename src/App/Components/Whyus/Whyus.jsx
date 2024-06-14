@@ -15,7 +15,7 @@ function Whyus() {
       <div className="whyus-data">
         <div className="whyus-header">
           <div className="whyus-subText">Clients love us</div>
-          <div className="whyus-heading">Why us</div>
+          <div className="whyus-heading">About us</div>
           {/* <div className="whyus-text">
           Problems trying to resolve the conflict between the two major realms
           of employment solution
