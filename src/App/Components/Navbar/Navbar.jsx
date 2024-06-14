@@ -12,7 +12,7 @@ function Navbar() {
         <div className="nav-items" onClick={() => {navigate("/Products");}}> Products
           <img className="nav-downArrow" src={downicon} alt="downarrow" />
         </div>
-        <div class="nav-hidden">
+        {/* <div class="nav-hidden">
           <div class="row">
               <div class="nav-hidden-column1 col-4">
                   <p className="title">About Products </p>
@@ -38,7 +38,7 @@ function Navbar() {
                 <p>Payroll Products</p>
               </div>
           </div>
-          </div>
+          </div> */}
         </div>
         <div
           onClick={() => {
