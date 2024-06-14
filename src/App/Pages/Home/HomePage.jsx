@@ -190,7 +190,7 @@ function HomePage() {
       <div className="HomeClients_container">
         <div className="HomeClients_header">
           <h1>Clients Love us</h1>
-          <p>Problems trying to resolve the conflict between the two major realms of employment solutions.</p>
+          {/* <p>Problems trying to resolve the conflict between the two major realms of employment solutions.</p> */}
         </div>
         <div className="HomeClients_content">
         <div className="slider-container">

@@ -66,7 +66,8 @@ function Navbar() {
           }}
           className="nav-items"
         >
-          Why us
+          {/* Why us */}
+          About us
         </div>
         <div
           onClick={() => {
