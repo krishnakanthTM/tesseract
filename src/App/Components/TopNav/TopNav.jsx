@@ -32,7 +32,7 @@ function TopNav({ type }) {
                 <img className="nav-downArrow" src={downicon} alt="downarrow" />
               </div>
 
-              <div
+              {/* <div
                 onClick={() => {
                   // navigate("/Solutions");
                 }}
@@ -40,7 +40,7 @@ function TopNav({ type }) {
               >
                 Solutions
                 <img className="nav-downArrow" src={downicon} alt="downarrow" />
-              </div>
+              </div> */}
 
               <div
                 onClick={() => {

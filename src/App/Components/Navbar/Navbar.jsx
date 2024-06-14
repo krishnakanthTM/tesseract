@@ -40,7 +40,7 @@ function Navbar() {
           </div>
           </div> */}
         </div>
-        <div
+        {/* <div
           onClick={() => {
             // navigate("/Solutions");
           }}
@@ -48,7 +48,7 @@ function Navbar() {
         >
           Solutions
           <img className="nav-downArrow" src={downicon} alt="downarrow" />
-        </div>
+        </div> */}
 
         <div
           onClick={() => {
