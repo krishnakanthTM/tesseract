@@ -38,9 +38,11 @@ import rightIcon from "../../Assets/righticon.png";
 import Slider from "react-slick";
 import "../../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
+import { useNavigate } from "react-router-dom";
 
 function HomePage() {
-  const [width, setWidth] = useState(window.innerWidth);
+    const [width, setWidth] = useState(window.innerWidth);
+    const navigate = useNavigate();
 
   useEffect(() => {
     const handleResize = () => {
@@ -97,17 +99,17 @@ function HomePage() {
           <div className="HomeIndustries__sections">
             <h3>NDIS Providers</h3>
             <p>Empowering NDIS providers with tools to manage participant registries and compliance effortlessly. Streamline service tracking, cost management, and documentation all in one place. </p>
-            <button className="HomeIndustries__buttons">See more...</button>
+            <button onClick={() => {navigate("/Products/NDISIndustry");}} className="HomeIndustries__buttons">See more...</button>
           </div>
           <div className="HomeIndustries__sections">
             <h3>Payroll Companies</h3>
             <p>Optimize payroll management with our comprehensive platform designed to handle payroll processing and reporting. Ensure compliance and efficiency with Tesseract's robust features.</p>
-            <button className="HomeIndustries__buttons">See more...</button>
+            <button onClick={() => {navigate("/Products/Payroll");}} className="HomeIndustries__buttons">See more...</button>
           </div>
           <div className="HomeIndustries__sections">
             <h3>Consulting Agencies</h3>
             <p>Transform your consulting operations with Tesseract's unified platform, streamlining HR and payroll processes. Ensures efficient management and collaboration across your team. </p>
-            <button className="HomeIndustries__buttons">See more...</button>
+            <button onClick={() => {navigate("/Products/Consultancy");}} className="HomeIndustries__buttons">See more...</button>
           </div>
         </div>
       </div>

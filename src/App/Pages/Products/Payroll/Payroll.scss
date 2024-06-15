@@ -1,0 +1,57 @@
+.ProductsPayrollShiftReports {
+    color: black;
+    min-height: 550px;
+    max-height: 550px;
+    height: max-content;
+    position: relative;
+    top: -3rem;
+
+    &__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 6rem;
+    }
+}
+
+.ProductPayrollRepository {
+    &__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 3rem;
+    }
+}
+
+.ProductPayrollMobileApp {
+    &__content {
+    max-width: 450px;
+    margin-top: 0rem;
+    }
+}
+
+.ProductsPayrollSupport {
+    &__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 5rem;
+    }
+    
+    &__imageContent {
+        width: 700px;
+        position: relative;
+        left: 10rem;
+
+        img {
+            transform: scale(0.7);
+        }
+    }
+
+    &__content {
+        max-width: 450px;
+    }
+}
