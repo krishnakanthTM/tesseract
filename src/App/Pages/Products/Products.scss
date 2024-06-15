@@ -11,7 +11,8 @@
     &__container {
         display: flex;
         position: relative;
-        top: 3rem;
+        justify-content: center;
+        align-items: center;
     }
 
     &__backgroundImage {
@@ -26,7 +27,6 @@
 
     &__content {
         max-width: 450px;
-        margin-top: 6rem;
     }
 
     &__heading {
@@ -95,7 +95,6 @@
     max-height: 600px;
     height: max-content;
     position: relative;
-    top:5rem;
 
     &__heading {
         font-family: Roboto;
