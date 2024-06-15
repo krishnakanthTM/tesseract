@@ -68,13 +68,13 @@ function HomePage() {
       <TopNav type="primary" />
       <Navbar />
       {/** Introduction Container*/}
-      <div className="HomeIntroductionContainer">
-        <img src={heroBackgroundImage} alt="herobackgroundImage.." className="HomeIntroduction-backgroundImage1" />
-        <div className="HomeIntroduction">
-          <div className="HomeIntroduction-content">
-            <div className="HomeIntroduction-heading">Unlock the power of efficiency with Tesseract</div>
-            <div className="HomeIntroduction-text"> Welcome to Tesseract – your comprehensive solution for small and medium enterprises within Australia especially tailored for NDIS providers, Payroll, and Consultancy enterprises. We offer a unified cloud based platform that optimizes your daily tasks, enhances productivity, and fosters team collaboration.</div>
-            <div className="HomeIntroduction-buttons">
+      <div className="HomeIntroduction">
+        <img src={heroBackgroundImage} alt="herobackgroundImage.." className="HomeIntroduction__backgroundImage" />
+        <div className="HomeIntroduction__container">
+          <div className="HomeIntroduction__content">
+            <div className="HomeIntroduction__heading">Unlock the power of efficiency with Tesseract</div>
+            <div className="HomeIntroduction__text"> Welcome to Tesseract – your comprehensive solution for small and medium enterprises within Australia especially tailored for NDIS providers, Payroll, and Consultancy enterprises. We offer a unified cloud based platform that optimizes your daily tasks, enhances productivity, and fosters team collaboration.</div>
+            <div className="HomeIntroduction__buttons">
                   <button className="tesseract-button-primary">Start your free trial
                   </button>
                   <button className="tesseract-button-outline">Make an enquiry
@@ -82,7 +82,7 @@ function HomePage() {
                 </button>
             </div>
           </div>
-          <div className="HomeIntroduction-imageContent">
+          <div className="HomeIntroduction__imageContent">
           <img src={saly10} alt="HomeIntroduction_image1" className="HomeIntroduction-image1" />
           </div>
         </div>
@@ -91,23 +91,23 @@ function HomePage() {
       <img src={rectangle4} alt="rectangle4" className="rectangle4" />
       {/* <img src={rectangleMobile} alt="rectangleMobile" className="rectangleMobile" /> */}
       {/** Industries Container */}
-      <div className="HomeIndustries_container">
+      <div className="HomeIndustries">
         <h1>Industries we serve</h1>
-        <div className="HomeIndustries_content">
-          <div className="HomeIndustries_sections">
+        <div className="HomeIndustries__container">
+          <div className="HomeIndustries__sections">
             <h3>NDIS Providers</h3>
             <p>Empowering NDIS providers with tools to manage participant registries and compliance effortlessly. Streamline service tracking, cost management, and documentation all in one place. </p>
-            <button className="HomeIndustries_buttons">See more...</button>
+            <button className="HomeIndustries__buttons">See more...</button>
           </div>
-          <div className="HomeIndustries_sections">
+          <div className="HomeIndustries__sections">
             <h3>Payroll Companies</h3>
             <p>Optimize payroll management with our comprehensive platform designed to handle payroll processing and reporting. Ensure compliance and efficiency with Tesseract's robust features.</p>
-            <button className="HomeIndustries_buttons">See more...</button>
+            <button className="HomeIndustries__buttons">See more...</button>
           </div>
-          <div className="HomeIndustries_sections">
+          <div className="HomeIndustries__sections">
             <h3>Consulting Agencies</h3>
             <p>Transform your consulting operations with Tesseract's unified platform, streamlining HR and payroll processes. Ensures efficient management and collaboration across your team. </p>
-            <button className="HomeIndustries_buttons">See more...</button>
+            <button className="HomeIndustries__buttons">See more...</button>
           </div>
         </div>
       </div>
@@ -115,64 +115,64 @@ function HomePage() {
       <img src={rectangleMobile2} alt="rectangleMobile2" className="rectangleMobile2" />
       <img src={rectangle2} alt="rectangle2" className="rectangleMobile3" /> */}
       {/** Services Container */}
-      <div className="HomeServices_container">
-        <img src={homeServiceBackground} alt="homeServiceBackground" className="HomeServices_background" />
+      <div className="HomeServices">
+        <img src={homeServiceBackground} alt="homeServiceBackground" className="HomeServices__background" />
           <h1>Services we offer</h1>
-        <div className="HomeServices_content">
-          <div className="container">
-            <div className="column1">
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+        <div className="HomeServices__container">
+          <div className="HomeServices__content">
+            <div className="HomeServices__column1">
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Staff and Participants Registry
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Roster Management
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Timesheets
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Payroll
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Human Resources
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Mobile App
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 24/7 Support
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Repository for secured Document Storage
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Issues Register
             </div>
         </div>
-        <div className="column2">
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+        <div className="HomeServices__column2">
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Mobile App
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 24/7 Support
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Repository for secured Document Storage
             </div>
-            <div className="item">
-                <span className="checkmark"><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
+            <div className="HomeServices__item">
+                <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Issues Register
             </div>
         </div>
@@ -187,15 +187,15 @@ function HomePage() {
       {/* <ImageWithContent data={empowerNDISIndustry} /> */}
       {/* <img src={rectangle2} alt="rectangle2" className="rectangle2" /> */}
       {/* Client Container */}
-      <div className="HomeClients_container">
-        <div className="HomeClients_header">
+      <div className="HomeClients">
+        <div className="HomeClients__header">
           <h1>Clients Love us</h1>
           <p>Problems trying to resolve the conflict between the two major realms of employment solutions.</p>
         </div>
-        <div className="HomeClients_content">
+        <div className="HomeClients__container">
         <div className="slider-container">
           <Slider {...settings}>
-          <div className="HomeClients_cards1">
+          <div className="HomeClients__cards1">
             <div className="stars">
               <img src={star} alt="star1" className="star" />
               <img src={star} alt="star2" className="star" />
@@ -214,7 +214,7 @@ function HomePage() {
                 </div>
             </div>
           </div>
-          <div className="HomeClients_cards2">
+          <div className="HomeClients__cards2">
             <div className="stars">
               <img src={star} alt="star1" className="star" />
               <img src={star} alt="star2" className="star" />
@@ -233,7 +233,7 @@ function HomePage() {
                 </div>
             </div>
           </div>
-          <div className="HomeClients_cards3">
+          <div className="HomeClients__cards3">
             <div className="stars">
               <img src={star} alt="star1" className="star" />
               <img src={star} alt="star2" className="star" />
