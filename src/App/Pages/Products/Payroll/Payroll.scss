@@ -1,57 +1,457 @@
-.ProductsPayrollShiftReports {
-    color: black;
-    min-height: 550px;
-    max-height: 550px;
+.ProductsPayrollIntroduction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    min-height: 600px;
+    /* max-height: 700px; */
     height: max-content;
-    position: relative;
-    top: -3rem;
+    background-color: #007ACC;
 
     &__container {
         display: flex;
         position: relative;
         justify-content: center;
         align-items: center;
-        top: 6rem;
     }
-}
 
-.ProductPayrollRepository {
-    &__container {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        top: 3rem;
-    }
-}
-
-.ProductPayrollMobileApp {
-    &__content {
-    max-width: 450px;
-    margin-top: 0rem;
-    }
-}
-
-.ProductsPayrollSupport {
-    &__container {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        top: 5rem;
-    }
-    
-    &__imageContent {
-        width: 700px;
-        position: relative;
-        left: 10rem;
-
-        img {
-            transform: scale(0.7);
-        }
+    &__backgroundImage {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: -3px;
+        min-height: 880px;
+        height: 880px;
     }
 
     &__content {
         max-width: 450px;
     }
+
+    &__heading {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    &__text {
+        margin: 20px 0;
+        text-align: justify;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        color: white;
+    }
+
+    &__buttons {
+        display: flex;
+        margin-top: 1rem;
+        font-family: Roboto-medium;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+    }
+
+    &__imageContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        img {
+            height: 500px;
+            width: 500px;
+            margin: 0 60px;
+        }
+    }
 }
+
+.ProductsPayrollShiftReports {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+    min-height: 450px;
+    max-height: 450px;
+    height: max-content;
+    top: -3rem;
+
+    &__heading {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        text-align: left;
+    }
+
+    &__backgroundImage {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 600px;
+        height: 600px;
+    }
+
+    &__content {
+        max-width: 450px;
+    }
+
+    &__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+        margin-top:2rem;
+    }
+
+    &__imageContent {
+        width: 500px;
+        margin: 0 60px;
+        border: 0;
+        border-radius: 15px;
+    }
+}
+
+.ProductsPayrollRepository {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    min-height: 700px;
+    max-height: 700px;
+    height: max-content;
+    position: relative;
+    color: white;
+
+    &__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: -3rem;
+    }
+
+    &__content {
+        max-width: 450px;
+        margin-top: 0rem;
+    }
+
+    &__backgroundImage {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 600px;
+        height: 600px;
+    }
+
+
+    &__heading {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    &__text {
+        margin: 20px 0;
+        font-family: 'Roboto-medium';
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+
+    &__buttons {
+        display: flex;
+        margin-top: 1rem;
+        font-family: Roboto-medium;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+    }
+
+    &__imageContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 700px;
+        img {
+            height: 500px;
+            width: 500px;
+            margin: 0 60px;
+        }
+    }
+}
+
+.ProductsPayrollMobileApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    color: black;
+    min-height: 500px;
+    max-height: 500px;
+    height: max-content;
+    position: relative;
+
+    &__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__content {
+        max-width: 450px;
+        margin-top: 0rem;
+    }
+
+    &__backgroundImage {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 600px;
+        height: 600px;
+    }
+
+    &__heading {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        margin: 20px 0;
+        font-family: 'Roboto-medium';
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+
+    &__buttons {
+        display: flex;
+        margin-top: 1rem;
+        font-family: Roboto-medium;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+    }
+
+    &__imageContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 700px;
+        img {
+            height: 500px;
+            width: 500px;
+            margin: 0 60px;
+        }
+    }
+}
+
+.ProductsPayrollSupport {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    min-height: 700px;
+    max-height: 700px;
+    height: max-content;
+    position: relative;
+    color: white;
+
+    &__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: -3rem;
+    }
+
+    &__content {
+        max-width: 450px;
+        margin-top: 0rem;
+    }
+
+    &__backgroundImage {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 600px;
+        height: 600px;
+    }
+
+    &__heading {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    &__text {
+        margin: 20px 0;
+        font-family: 'Roboto-medium';
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+
+    &__buttons {
+        display: flex;
+        margin-top: 1rem;
+        font-family: Roboto-medium;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+    }
+
+    &__imageContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 700px;
+        img {
+            height: 500px;
+            width: 500px;
+            margin: 0 60px;
+        }
+    }
+}
+
+.ProductsPayrollIssueRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    color: black;
+    min-height: 450px;
+    max-height: 450px;
+    height: max-content;
+    position: relative;
+    margin-top: -5rem;
+
+    &__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__content {
+        max-width: 450px;
+        margin-top: 0rem;
+    }
+
+    &__backgroundImage {
+        position: absolute;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        min-height: 600px;
+        height: 600px;
+    }
+
+
+    &__heading {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.73px;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        margin: 20px 0;
+        font-family: 'Roboto-medium';
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+
+    &__buttons {
+        display: flex;
+        margin-top: 1rem;
+        font-family: Roboto-medium;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+    }
+
+    &__imageContent{
+        width: 500px;
+        border: 0;
+        border-radius: 15px;
+        position: relative;
+        img {
+            height: 450px;
+            width: 450px;
+            margin: 0 60px;
+        }
+    }
+}
+
+// .ProductPayrollMobileApp {
+//     &__content {
+//     max-width: 450px;
+//     margin-top: 0rem;
+//     }
+// }
+
+// .ProductsPayrollSupport {
+//     &__container {
+//         display: flex;
+//         position: relative;
+//         justify-content: center;
+//         align-items: center;
+//         top: 5rem;
+//     }
+    
+//     &__imageContent {
+//         width: 700px;
+//         position: relative;
+//         left: 10rem;
+
+//         img {
+//             transform: scale(0.7);
+//         }
+//     }
+
+//     &__content {
+//         max-width: 450px;
+//     }
+// }

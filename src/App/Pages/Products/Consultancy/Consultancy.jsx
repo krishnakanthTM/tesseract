@@ -30,15 +30,15 @@ const Consultancy = () => {
     <div>
       <TopNav type="secondary" />
       {/* <ImageWithContent data={ProductsHero} frame="Products" framePosition=""/> */}
-      <div className="ProductsIntroduction">
-        <div className="ProductsIntroduction__container">
-          <div className="ProductsIntroduction__imageContent">
-          <img src={companiesPayroll} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
+      <div className="ProductsConsultancyIntroduction">
+        <div className="ProductsConsultancyIntroduction__container">
+          <div className="ProductsConsultancyIntroduction__imageContent">
+          <img src={companiesPayroll} alt="ProductsConsultancyIntroduction__image1" className="ProductsConsultancyIntroduction__image" />
           </div>
-          <div className="ProductsIntroduction__content">
-            <div className="ProductsIntroduction__heading">Consulting Agencies</div>
-            <div className="ProductsIntroduction__text">Tesseract provides consulting agencies with tools to streamline HR processes, manage payroll, and ensure efficient operations, all through a unified platform.</div>
-            <div className="ProductsIntroduction__buttons">
+          <div className="ProductsConsultancyIntroduction__content">
+            <div className="ProductsConsultancyIntroduction__heading">Consulting Agencies</div>
+            <div className="ProductsConsultancyIntroduction__text">Tesseract provides consulting agencies with tools to streamline HR processes, manage payroll, and ensure efficient operations, all through a unified platform.</div>
+            <div className="ProductsConsultancyIntroduction__buttons">
                   <button className="tesseract-button-products">Start your free trial
                   </button>
                   <button className="tesseract-button-outline">Make an enquiry
@@ -48,88 +48,88 @@ const Consultancy = () => {
           </div>
         </div>
       </div>
-      <div className="ProductsMission">
-        <div className="ProductsMission__container">
-          <div className="ProductsIntroduction__content">
-            <div className="ProductsMission__heading">Staff Registry/ Human resources</div>
-            <div className="ProductsMission__text">
+      <div className="ProductsConsultancyHR">
+        <div className="ProductsConsultancyHR__container">
+          <div className="ProductsConsultancyHR__content">
+            <div className="ProductsConsultancyHR__heading">Staff Registry/ Human resources</div>
+            <div className="ProductsConsultancyHR__text">
             Post new jobs, Conduct interviews, shortlist candidates, paperless onboarding, training and evalulations, rewards and recognitions, leave management, tracking performance ratings
             </div>
-            <div className="ProductsIntroduction__buttons">
+            <div className="ProductsConsultancyHR__buttons">
                 <button className="tesseract-button-primary">Request a demo</button>
             </div>
           </div>
-          <div className="ProductsMission__imageContent">
-          <img src={HR} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
+          <div className="ProductsConsultancyHR__imageContent">
+          <img src={HR} alt="ProductsConsultancyHR__image1" className="ProductsConsultancyHR__image" />
           </div>
         </div>
       </div>
-      <div className="ProductsRoasterManagement">
-        <img src={homeServiceBackground} alt="herobackgroundImage.." className="ProductsMission__backgroundImage" />
-        <div className="ProductsSignIn__container">
-          <div className="ProductsRoasterManagement__imageContent">
-          <img src={timesheets} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
+      <div className="ProductsConsultancyTimesheets">
+        <img src={homeServiceBackground} alt="herobackgroundImage.." className="ProductsConsultancyTimesheets__backgroundImage" />
+        <div className="ProductsConsultancyTimesheets__container">
+          <div className="ProductsConsultancyTimesheets__imageContent">
+          <img src={timesheets} alt="ProductsConsultancyTimesheets__image1" className="ProductsConsultancyTimesheets__image" />
           </div>
-          <div className="ProductsIntroduction__content">
-            <div className="ProductsIntroduction__heading">Timesheets</div>
-            <div className="ProductsRoasterManagement__text">Optimize team scheduling with our intuitive roster management tool. Effortlessly create, adjust, and share rosters while keeping labor costs in check.</div>
-          </div>
-        </div>
-      </div>
-      <div className="ProductsShiftReports">
-        <div className="ProductPayroll__container">
-          <div className="ProductPayroll__content">
-            <div className="ProductsParticipantRegistry__heading">Payroll</div>
-            <div className="ProductsParticipantRegistry__text">Generate payslips, STP reporting, Super annuation reporting, IAS and BAS, Track expenses, Generate Invoices and adhoc reporting, payments can be done via secured payment gateway system</div>
-          </div>
-          <div className="ProductsMission__imageContent">
-          <img src={consultancyPayroll} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
+          <div className="ProductsConsultancyTimesheets__content">
+            <div className="ProductsConsultancyTimesheets__heading">Timesheets</div>
+            <div className="ProductsConsultancyTimesheets__text">Optimize team scheduling with our intuitive roster management tool. Effortlessly create, adjust, and share rosters while keeping labor costs in check.</div>
           </div>
         </div>
       </div>
-      <div className="ProductsRoasterManagement">
-        <img src={homeServiceBackground} alt="herobackgroundImage.." className="ProductsMission__backgroundImage" />
-        <div className="ProductPayroll__container">
-          <div className="ProductsRoasterManagement__imageContent">
-          <img src={repository} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
+      <div className="ProductsConsultancyPayroll">
+        <div className="ProductsConsultancyPayroll__container">
+          <div className="ProductsConsultancyPayroll__content">
+            <div className="ProductsConsultancyPayroll__heading">Payroll</div>
+            <div className="ProductsConsultancyPayroll__text">Generate payslips, STP reporting, Super annuation reporting, IAS and BAS, Track expenses, Generate Invoices and adhoc reporting, payments can be done via secured payment gateway system</div>
           </div>
-          <div className="ProductsIntroduction__content">
-            <div className="ProductsIntroduction__heading">Repository</div>
-            <div className="ProductsRoasterManagement__text">Store your documents securely in a cloud based location for ease of access from anywhere </div>
-          </div>
-        </div>
-      </div>
-      <div className="ProductsMobileApp">
-        <div className="ProductsMission__container">
-          <div className="ProductsPayrollSupport__content">
-            <div className="ProductsParticipantRegistry__heading">Mobile App</div>
-            <div className="ProductsParticipantRegistry__text">Access key features on-the-go with the Tesseract mobile app. Download today from the Apple App Store or Google Play Store and bring efficiency to your fingertips. Free, with unlimited user access.</div>
-          </div>
-          <div className="ProductsMission__imageContent">
-          <img src={mobileApp} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
+          <div className="ProductsConsultancyPayroll__imageContent">
+          <img src={consultancyPayroll} alt="ProductsConsultancyPayroll__image1" className="ProductsConsultancyPayroll__image" />
           </div>
         </div>
       </div>
-      <div className="ProductsRoasterManagement">
-        <img src={homeServiceBackground} alt="herobackgroundImage.." className="ProductsMission__backgroundImage" />
-        <div className="ProductsSupport__container">
-          <div className="ProductsRoasterManagement__imageContent">
-          <img src={support} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
+      <div className="ProductsConsultancyRepository">
+        <img src={homeServiceBackground} alt="herobackgroundImage.." className="ProductsConsultancyRepository__backgroundImage" />
+        <div className="ProductsConsultancyRepository__container">
+          <div className="ProductsConsultancyRepository__imageContent">
+          <img src={repository} alt="ProductsConsultancyRepository__image1" className="ProductsConsultancyRepository__image" />
           </div>
-          <div className="ProductsSupport__content">
-            <div className="ProductsIntroduction__heading">24/7 Support</div>
-            <div className="ProductsRoasterManagement__text">Our dedicated support team is available around the clock to assist you, ensuring your operations run smoothly without interruption.</div>
+          <div className="ProductsConsultancyRepository__content">
+            <div className="ProductsConsultancyRepository__heading">Repository</div>
+            <div className="ProductsConsultancyRepository__text">Store your documents securely in a cloud based location for ease of access from anywhere </div>
           </div>
         </div>
       </div>
-      <div className="ProductsIssueRegister">
-        <div className="ProductsMission__container">
-          <div className="ProductsIntroduction__content">
-            <div className="ProductsParticipantRegistry__heading">Issue Register</div>
-            <div className="ProductsParticipantRegistry__text">Track and manage issues efficiently with our comprehensive Issue Register, designed to support project management through detailed tracking and updates.</div>
+      <div className="ProductsConsultancyMobileApp">
+        <div className="ProductsConsultancyMobileApp__container">
+          <div className="ProductsConsultancyMobileApp__content">
+            <div className="ProductsConsultancyMobileApp__heading">Mobile App</div>
+            <div className="ProductsConsultancyMobileApp__text">Access key features on-the-go with the Tesseract mobile app. Download today from the Apple App Store or Google Play Store and bring efficiency to your fingertips. Free, with unlimited user access.</div>
           </div>
-          <div className="ProductsIssueRegister__imageContent">
-          <img src={issueRegister} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
+          <div className="ProductsConsultancyMobileApp__imageContent">
+          <img src={mobileApp} alt="ProductsConsultancyMobileApp__image1" className="ProductsConsultancyMobileApp__image" />
+          </div>
+        </div>
+      </div>
+      <div className="ProductsConsultancySupport">
+        <img src={homeServiceBackground} alt="herobackgroundImage.." className="ProductsConsultancySupport__backgroundImage" />
+        <div className="ProductsConsultancySupport__container">
+          <div className="ProductsConsultancySupport__imageContent">
+          <img src={support} alt="ProductsConsultancySupport__image1" className="ProductsConsultancySupport__image" />
+          </div>
+          <div className="ProductsConsultancySupport__content">
+            <div className="ProductsConsultancySupport__heading">24/7 Support</div>
+            <div className="ProductsConsultancySupport__text">Our dedicated support team is available around the clock to assist you, ensuring your operations run smoothly without interruption.</div>
+          </div>
+        </div>
+      </div>
+      <div className="ProductsConsultancyIssueRegister">
+        <div className="ProductsConsultancyIssueRegister__container">
+          <div className="ProductsConsultancyIssueRegister__content">
+            <div className="ProductsConsultancyIssueRegister__heading">Issue Register</div>
+            <div className="ProductsConsultancyIssueRegister__text">Track and manage issues efficiently with our comprehensive Issue Register, designed to support project management through detailed tracking and updates.</div>
+          </div>
+          <div className="ProductsConsultancyIssueRegister__imageContent">
+          <img src={issueRegister} alt="ProductsConsultancyIssueRegister__image1" className="ProductsConsultancyIssueRegister__image" />
           </div>
         </div>
       </div>
