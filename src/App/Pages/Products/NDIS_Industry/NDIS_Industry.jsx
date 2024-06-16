@@ -55,9 +55,9 @@ const NDISIndustry = () => {
             <div className="ProductsNDISMission__heading">Staff Registry/ Human Resources</div>
             <div className="ProductsNDISMission__text">Efficiently post new jobs, conduct interviews, shortlist candidates, and manage paperless onboarding. Facilitate training and evaluations, recognize achievements, and handle leave management and performance tracking.
             </div>
-            <div className="ProductsNDISIntroduction__buttons">
+            {/* <div className="ProductsNDISIntroduction__buttons">
                 <button className="tesseract-button-primary">Request a demo</button>
-            </div>
+            </div> */}
           </div>
           <div className="ProductsNDISMission__imageContent">
           <img src={HR} alt="ProductsIntroduction__image1" className="ProductsIntroduction__image" />
@@ -82,9 +82,9 @@ const NDISIndustry = () => {
             {/* <div className="ProductsNDISParticipantRegistry__heading">Participant Registry</div> */}
             <div className="ProductsNDISShiftReports__heading">Participant Registry</div>
             <div className="ProductsNDISParticipantRegistry__text">Create comprehensive service agreements, capture detailed shift, progress, and care notes, track funds spent, and generate accurate invoices.</div>
-          <div className="ProductsNDISParticipantRegistry__buttons">
+          {/* <div className="ProductsNDISParticipantRegistry__buttons">
             <button className="tesseract-button-primary">Request a demo</button>
-          </div>
+          </div> */}
           </div>
           <div className="ProductsMission__imageContent">
           <img src={ParticipantRegistryImage} alt="ProductsNDISParticipantRegistry__image1" className="ProductsNDISParticipantRegistry__image" />

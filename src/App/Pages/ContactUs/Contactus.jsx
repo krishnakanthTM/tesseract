@@ -140,7 +140,7 @@ const Contactus = () => {
 
             <div>
               <label className="Contactus-section-form-title" htmlFor="">
-                Last name*
+                Last Name*
               </label>
               <br />
               <input placeholder="Enter value" type="text" name="lastName" onChange={handleChange}/>
@@ -149,7 +149,7 @@ const Contactus = () => {
 
             <div>
               <label className="Contactus-section-form-title" htmlFor="">
-                Company name*
+                Company Name*
               </label>
               <br />
               <input placeholder="Enter value" type="text" name="companyName"  onChange={handleChange} />
@@ -158,7 +158,7 @@ const Contactus = () => {
 
             <div>
               <label className="Contactus-section-form-title" htmlFor="">
-                Work email*
+                Work Email*
               </label>
               <br />
               <input placeholder="Enter value" type="text" name="email"  onChange={handleChange}/>
@@ -167,7 +167,7 @@ const Contactus = () => {
 
             <div>
               <label className="Contactus-section-form-title" htmlFor="">
-                Work phone*
+                Work Phone*
               </label>
               <br />
               <input placeholder="Enter value" type="text" name="phone"  onChange={handleChange}/>
@@ -184,7 +184,7 @@ const Contactus = () => {
 
             <div>
               <label className="Contactus-section-form-title" htmlFor="">
-                Number of employee*
+                Number of Employee*
               </label>
               <br />
               <input placeholder="Enter value" type="text" name="noOfEmployees" onChange={handleChange}/>

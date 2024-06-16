@@ -56,9 +56,9 @@ const Consultancy = () => {
             <div className="ProductsConsultancyHR__heading">Staff Registry/ Human Resources</div>
             <div className="ProductsConsultancyHR__text">Post job openings, conduct interviews, shortlist candidates, and manage onboarding. Facilitate ongoing training, performance evaluations, rewards, and recognitions, as well as leave management. 
             </div>
-            <div className="ProductsConsultancyHR__buttons">
+            {/* <div className="ProductsConsultancyHR__buttons">
                 <button className="tesseract-button-primary">Request a demo</button>
-            </div>
+            </div> */}
           </div>
           <div className="ProductsConsultancyHR__imageContent">
           <img src={HR} alt="ProductsConsultancyHR__image1" className="ProductsConsultancyHR__image" />
