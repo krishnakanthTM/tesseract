@@ -1,12 +1,14 @@
 import React from "react";
 import "./Whyus.css";
 import sectionBackground from "../../Assets/sectionBackground.png";
+import ScrollToTop from "../../Components/ScrollToTop/ScrollToTop";
 // import CarouselComponent from "../Carousel/CarouselComponent";
 // import { whyUsCarousalData } from "../../Pages/Home/HomePageData";
 
 function Whyus() {
   return (
     <div className="whyus-container">
+      <ScrollToTop />
       <img
         src={sectionBackground}
         alt="sectionBackground"
@@ -14,7 +16,7 @@ function Whyus() {
       />
       <div className="whyus-data">
         <div className="whyus-header">
-          <div className="whyus-subText">Clients love us</div>
+          {/* <div className="whyus-subText">Clients love us</div> */}
           <div className="whyus-heading">About us</div>
           {/* <div className="whyus-text">
           Problems trying to resolve the conflict between the two major realms

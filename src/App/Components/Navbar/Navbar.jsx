@@ -9,7 +9,7 @@ function Navbar() {
     <div className="page-header-nav">
       <div className="navbar-container">
         <div class="productsContainer">
-        <div className="nav-items" onClick={() => {navigate("/Products");}}> Products
+        <div className="nav-items" onClick={() => {navigate("/Products/NDISIndustry");}}> Products
           <img className="nav-downArrow" src={downicon} alt="downarrow" />
         </div>
         {/* <div class="nav-hidden">

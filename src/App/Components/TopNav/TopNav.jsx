@@ -24,7 +24,7 @@ function TopNav({ type }) {
             <div className="navbar-container-top">
               <div
                 onClick={() => {
-                  navigate("/Products");
+                  navigate("/Products/NDISIndustry");
                 }}
                 className="nav-items"
               >

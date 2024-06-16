@@ -39,7 +39,7 @@ const Consultancy = () => {
           </div>
           <div className="ProductsConsultancyIntroduction__content">
             <div className="ProductsConsultancyIntroduction__heading">Consulting Agencies</div>
-            <div className="ProductsConsultancyIntroduction__text">Tesseract provides consulting agencies with tools to streamline HR processes, manage payroll, and ensure efficient operations, all through a unified platform.</div>
+            <div className="ProductsConsultancyIntroduction__text">Tesseract provides consulting agencies with a comprehensive platform that enhances HR and payroll processes, driving operational efficiency and team collaboration. Our solution helps consulting firms manage their workforce effectively, from recruitment to payroll, all within a unified system. Tesseract ensures that consulting agencies can focus on delivering value to their clients while we handle the administrative tasks.</div>
             <div className="ProductsConsultancyIntroduction__buttons">
                   <button className="tesseract-button-products">Start your free trial
                   </button>

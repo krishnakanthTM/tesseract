@@ -37,8 +37,8 @@ const NDISIndustry = () => {
                 <img src={saly19} alt="ProductsNDISIntroduction__image1" className="ProductsNDISIntroduction__image" />
           </div>
           <div className="ProductsNDISIntroduction__content">
-            <div className="ProductsNDISIntroduction__heading">Unlock the power of efficiency with Tesseract</div>
-            <div className="ProductsNDISIntroduction__text"> Welcome to Tesseract – your comprehensive solution for small and medium enterprises within Australia especially tailored for NDIS providers, Payroll, and Consultancy enterprises. We offer a unified cloud based platform that optimizes your daily tasks, enhances productivity, and fosters team collaboration.</div>
+            <div className="ProductsNDISIntroduction__heading">NDIS Providers</div>
+            <div className="ProductsNDISIntroduction__text"> Tesseract’s platform is designed to empower NDIS providers by offering tools that simplify the management of participant data, service tracking, cost management, and invoicing. Our solution ensures compliance with NDIS guidelines, making documentation easy to manage and access. With Tesseract, NDIS providers can focus on delivering quality care while we handle the administrative complexities.</div>
             <div className="ProductsNDISIntroduction__buttons">
                   <button className="tesseract-button-products">Start your free trial
                   </button>
@@ -79,7 +79,8 @@ const NDISIndustry = () => {
       <div className="ProductsNDISParticipantRegistry">
         <div className="ProductsNDISParticipantRegistry__container">
           <div className="ProductsNDISParticipantRegistry__content">
-            <div className="ProductsNDISParticipantRegistry__heading">Participant Registry</div>
+            {/* <div className="ProductsNDISParticipantRegistry__heading">Participant Registry</div> */}
+            <div className="ProductsNDISShiftReports__heading">Participant Registry</div>
             <div className="ProductsNDISParticipantRegistry__text">Create comprehensive service agreements, capture detailed shift, progress, and care notes, track funds spent, and generate accurate invoices.</div>
           <div className="ProductsNDISParticipantRegistry__buttons">
             <button className="tesseract-button-primary">Request a demo</button>
@@ -97,7 +98,7 @@ const NDISIndustry = () => {
           <img src={signIn} alt="ProductsNDISSignIn__image1" className="ProductsNDISSignIn__image" />
           </div>
           <div className="ProductsNDISSignIn__content">
-            <div className="ProductsNDISSignIn__heading">Sign-in/out</div>
+            <div className="ProductsNDISSignIn__heading">Sign-in/Out</div>
             <div className="ProductsNDISSignIn__text">Enable staff to sign in and out directly from the mobile application, ensuring accurate attendance records. </div>
           </div>
         </div>

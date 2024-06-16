@@ -54,11 +54,11 @@ function Footer() {
         </div>
         <div className="footer-product">
           <div className="footer-heading">Products</div>
-          <div className="footer-items" onClick={() => navigate("/Products")}>
+          <div className="footer-items" onClick={() => navigate("/Products/NDISIndustry")}>
           NDIS Industry
           </div>
-          <div className="footer-items">Payroll Companies</div>
-          <div className="footer-items">Consulting Services</div>
+          <div className="footer-items" onClick={() => navigate("/Products/Payroll")}>Payroll Companies</div>
+          <div className="footer-items" onClick={() => navigate("/Products/Consultancy")}>Consulting Services</div>
           <div className="footer-items">Our Services</div>
         </div>
         <div className="footer-connect">

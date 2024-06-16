@@ -37,7 +37,7 @@ const Payroll = () => {
           </div>
           <div className="ProductsPayrollIntroduction__content">
             <div className="ProductsPayrollIntroduction__heading">Payroll Companies</div>
-            <div className="ProductsPayrollIntroduction__text"> Tesseract simplifies payroll management with features designed to handle all aspects of payroll processing and reporting, ensuring compliance and efficiency.</div>
+            <div className="ProductsPayrollIntroduction__text"> Tesseract’s platform is tailored to streamline payroll operations for companies, providing robust features for payroll processing, reporting, and compliance management. Our solution enhances operational efficiency by automating key payroll functions, allowing businesses to focus on strategic growth. With Tesseract, payroll companies can ensure accuracy, timeliness, and compliance, all in one comprehensive system. </div>
             <div className="ProductsPayrollIntroduction__buttons">
                   <button className="tesseract-button-products">Start your free trial
                   </button>
