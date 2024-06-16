@@ -41,7 +41,7 @@
     &__text {
         margin: 20px 0;
         text-align: justify;
-        font-family: Roboto;
+        font-family: 'Roboto-medium';
         font-size: 16px;
         font-weight: 400;
         line-height: 18.75px;
@@ -51,7 +51,7 @@
     &__buttons {
         display: flex;
         margin-top: 1rem;
-        font-family: Roboto-medium;
+        font-family: 'Roboto-medium';
         font-size: 14px;
         font-weight: 400;
         line-height: 16.41px;
@@ -110,12 +110,16 @@
     }
 
     &__text {
-        font-family: Roboto;
+        font-family: 'Roboto-medium';
         font-size: 16px;
         font-weight: 400;
         line-height: 18.75px;
         text-align: left;
         margin-top:2rem;
+    }
+
+    &__buttons {
+        margin-top: 1rem;
     }
 
     &__imageContent {
@@ -167,7 +171,7 @@
     }
 
     &__text {
-        font-family: Roboto;
+        font-family: 'Roboto-medium';
         font-size: 16px;
         font-weight: 400;
         line-height: 18.75px;

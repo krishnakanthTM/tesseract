@@ -2,7 +2,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./App/Pages/Home/HomePage";
-import Products from "./App/Pages/Products/Products";
 import NDISIndustry from "./App/Pages/Products/NDIS_Industry/NDIS_Industry";
 import Payroll from "./App/Pages/Products/Payroll/Payroll";
 import Consultancy from "./App/Pages/Products/Consultancy/Consultancy";
@@ -18,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Products" element={<Products />} />
+          {/* <Route path="/Products" element={<Products />} /> */}
           <Route path="/Products/NDISIndustry" element={<NDISIndustry />} />
           <Route path="/Products/Payroll" element={<Payroll />} />
           <Route path="/Products/Consultancy" element={<Consultancy />} />
