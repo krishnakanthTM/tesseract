@@ -17,10 +17,11 @@ const Pricing = () => {
       {/* Section-1 */}
       <div className="Pricing-Section-1">
         <div className="pricingHeading">
-          "The best price is not always the lowest price. It's the price
-          accompanied by the best value, service, and quality."
+          {/* "The best price is not always the lowest price. It's the price
+          accompanied by the best value, service, and quality." */}
+          "Choose the right plan for you... Get strated with the plan that suits you.."
         </div>
-        <div className="pricingText">
+        {/* <div className="pricingText">
           At Tesseract, we believe in transparent and competitive pricing. Our
           goal is to offer cost- effective solutions that meet your needs while
           ensuring the highest quality of service. We understand that every
@@ -29,7 +30,7 @@ const Pricing = () => {
           trust us to provide fair and clear pricing that aligns with the value
           we deliver. For detailed pricing information, please contact our team,
           and we'll be happy to assist you.
-        </div>
+        </div> */}
       </div>
 
       {/* Section-2 */}

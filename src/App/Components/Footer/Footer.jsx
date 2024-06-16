@@ -59,7 +59,7 @@ function Footer() {
           </div>
           <div className="footer-items" onClick={() => navigate("/Products/Payroll")}>Payroll Companies</div>
           <div className="footer-items" onClick={() => navigate("/Products/Consultancy")}>Consulting Services</div>
-          <div className="footer-items">Our Services</div>
+          {/* <div className="footer-items">Our Services</div> */}
         </div>
         <div className="footer-connect">
           <div className="footer-heading">Connect</div>
@@ -86,7 +86,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-copyrights">
-        <p>Copy right @Tesseractapps 2024</p>
+        <p>Copyright @TesseractApps 2024</p>
       </div>
     </div>
   );

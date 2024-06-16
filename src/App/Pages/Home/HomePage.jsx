@@ -120,7 +120,7 @@ function HomePage() {
       <div className="HomeServices">
         <img src={homeServiceBackground} alt="homeServiceBackground" className="HomeServices__background" />
           <h1>Services we offer</h1>
-        <div className="HomeServices__container">
+        {/* <div className="HomeServices__container"> */}
           <div className="HomeServices__content">
             <div className="HomeServices__column1">
             <div className="HomeServices__item">
@@ -143,7 +143,7 @@ function HomePage() {
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Human Resources
             </div>
-            <div className="HomeServices__item">
+            {/* <div className="HomeServices__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Mobile App
             </div>
@@ -158,7 +158,7 @@ function HomePage() {
             <div className="HomeServices__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Issues Register
-            </div>
+            </div> */}
         </div>
         <div className="HomeServices__column2">
             <div className="HomeServices__item">
@@ -178,7 +178,7 @@ function HomePage() {
                 Issues Register
             </div>
         </div>
-    </div>
+    {/* </div> */}
         </div>
         {/* <img src={rectangleIpad1} alt="rectangleIpad1" className="rectangleIpad1" />
         <img src={rectangleIpad2} alt="rectangleIpad2" className="rectangleIpad2" />
@@ -191,7 +191,7 @@ function HomePage() {
       {/* Client Container */}
       <div className="HomeClients">
         <div className="HomeClients__header">
-          <h1>Clients Love us</h1>
+          <h1>Clients Love Us</h1>
           {/* <p>Problems trying to resolve the conflict between the two major realms of employment solutions.</p> */}
         </div>
         <div className="HomeClients__container">
