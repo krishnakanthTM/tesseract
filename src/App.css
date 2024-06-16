@@ -49,6 +49,26 @@ body {
     font-weight: 400;
     line-height: 16.41px;
     text-align: left;
+} 
+.tesseract-button-products{
+    color: black;
+    width: 165px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #DFDCE3;
+    border: 0;
+    /* font-family: 'Roboto-medium'; */
+    font-family: Roboto-medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
 }
 .tesseract-button-primary:hover,.tesseract-button-outline:hover{
     opacity: 0.7;
@@ -72,6 +92,7 @@ body {
     font-weight: 400;
     line-height: 16.41px;
     text-align: left;
+    padding: 10px 0;
 }
 
 @media only screen and (max-width: 428px) {
