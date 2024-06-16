@@ -206,7 +206,7 @@ function HomePage() {
               <img src={emptyStar} alt="emptyStar" className="star" />
             </div>
             <p className="testimonial-text">
-                Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+            Tesseract helps you see how many more days you need to work to reach your financial goal for the month and year.
             </p>
             <div className="user-info">
                 <img src={client1} alt="Regina Miles" className="user-photo" />
@@ -225,7 +225,7 @@ function HomePage() {
               <img src={emptyStar} alt="emptyStar" className="star" />
             </div>
             <p className="testimonial-text">
-                Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+            Tesseract helps you see how many more days you need to work to reach your financial goal for the month and year.
             </p>
             <div className="user-info">
                 <img src={client2} alt="Client2" className="user-photo" />
@@ -244,7 +244,7 @@ function HomePage() {
               <img src={emptyStar} alt="emptyStar" className="star" />
             </div>
             <p className="testimonial-text">
-                Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+            Tesseract helps you see how many more days you need to work to reach your financial goal for the month and year.
             </p>
             <div className="user-info">
                 <img src={client3} alt="Client3" className="user-photo" />
