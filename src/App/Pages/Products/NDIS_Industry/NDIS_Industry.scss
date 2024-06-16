@@ -55,6 +55,8 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 16.41px;
+        position: relative;
+        top: 1rem;
     }
 
     &__imageContent{
@@ -129,7 +131,7 @@
     }
 
     &__text {
-        font-family: Roboto;
+        font-family: 'Roboto-medium';
         font-size: 16px;
         font-weight: 400;
         line-height: 18.75px;

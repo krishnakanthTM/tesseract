@@ -16,7 +16,7 @@ import ParticipantRegistryImage from "../../../Assets/PR.png";
 import RepositoryImg from "../../../Assets/Repository.png";
 import twentyFourSeven from "../../../Assets/24_7.png";
 import timesheets from "../../../Assets/svg/timesheets.svg";
-import companiesPayroll from "../../../Assets/svg/companiesPayroll.svg";
+import consultancyCompanies from "../../../Assets/svg/consultancyCompanies.svg";
 import payroll from "../../../Assets/svg/payroll.svg";
 import repository from "../../../Assets/svg/repository.svg";
 import mobileApp from "../../../Assets/svg/mobileApp.svg";
@@ -24,16 +24,18 @@ import support from "../../../Assets/svg/support.svg";
 import issueRegister from "../../../Assets/svg/issueRegister.svg";
 import consultancyPayroll from "../../../Assets/svg/consultancyPayroll.svg";
 import TopNav from "../../../Components/TopNav/TopNav";
+import ScrollToTop from "../../../Components/ScrollToTop/ScrollToTop";
 
 const Consultancy = () => {
   return (
     <div>
+      <ScrollToTop />
       <TopNav type="secondary" />
       {/* <ImageWithContent data={ProductsHero} frame="Products" framePosition=""/> */}
       <div className="ProductsConsultancyIntroduction">
         <div className="ProductsConsultancyIntroduction__container">
           <div className="ProductsConsultancyIntroduction__imageContent">
-          <img src={companiesPayroll} alt="ProductsConsultancyIntroduction__image1" className="ProductsConsultancyIntroduction__image" />
+          <img src={consultancyCompanies} alt="ProductsConsultancyIntroduction__image1" className="ProductsConsultancyIntroduction__image" />
           </div>
           <div className="ProductsConsultancyIntroduction__content">
             <div className="ProductsConsultancyIntroduction__heading">Consulting Agencies</div>
@@ -51,9 +53,8 @@ const Consultancy = () => {
       <div className="ProductsConsultancyHR">
         <div className="ProductsConsultancyHR__container">
           <div className="ProductsConsultancyHR__content">
-            <div className="ProductsConsultancyHR__heading">Staff Registry/ Human resources</div>
-            <div className="ProductsConsultancyHR__text">
-            Post new jobs, Conduct interviews, shortlist candidates, paperless onboarding, training and evalulations, rewards and recognitions, leave management, tracking performance ratings
+            <div className="ProductsConsultancyHR__heading">Staff Registry/ Human Resources</div>
+            <div className="ProductsConsultancyHR__text">Post job openings, conduct interviews, shortlist candidates, and manage onboarding. Facilitate ongoing training, performance evaluations, rewards, and recognitions, as well as leave management. 
             </div>
             <div className="ProductsConsultancyHR__buttons">
                 <button className="tesseract-button-primary">Request a demo</button>
@@ -72,7 +73,7 @@ const Consultancy = () => {
           </div>
           <div className="ProductsConsultancyTimesheets__content">
             <div className="ProductsConsultancyTimesheets__heading">Timesheets</div>
-            <div className="ProductsConsultancyTimesheets__text">Optimize team scheduling with our intuitive roster management tool. Effortlessly create, adjust, and share rosters while keeping labor costs in check.</div>
+            <div className="ProductsConsultancyTimesheets__text">Ensure precise time tracking and efficient timesheet management to support accurate payroll processing. </div>
           </div>
         </div>
       </div>
@@ -80,7 +81,7 @@ const Consultancy = () => {
         <div className="ProductsConsultancyPayroll__container">
           <div className="ProductsConsultancyPayroll__content">
             <div className="ProductsConsultancyPayroll__heading">Payroll</div>
-            <div className="ProductsConsultancyPayroll__text">Generate payslips, STP reporting, Super annuation reporting, IAS and BAS, Track expenses, Generate Invoices and adhoc reporting, payments can be done via secured payment gateway system</div>
+            <div className="ProductsConsultancyPayroll__text">Generate payslips, handle STP reporting, manage superannuation, IAS, and BAS. Track expenses and process payments securely through an integrated system. </div>
           </div>
           <div className="ProductsConsultancyPayroll__imageContent">
           <img src={consultancyPayroll} alt="ProductsConsultancyPayroll__image1" className="ProductsConsultancyPayroll__image" />
@@ -95,7 +96,7 @@ const Consultancy = () => {
           </div>
           <div className="ProductsConsultancyRepository__content">
             <div className="ProductsConsultancyRepository__heading">Repository</div>
-            <div className="ProductsConsultancyRepository__text">Store your documents securely in a cloud based location for ease of access from anywhere </div>
+            <div className="ProductsConsultancyRepository__text">Keep all HR and payroll documents securely stored and easily accessible in the cloud.</div>
           </div>
         </div>
       </div>
@@ -103,7 +104,7 @@ const Consultancy = () => {
         <div className="ProductsConsultancyMobileApp__container">
           <div className="ProductsConsultancyMobileApp__content">
             <div className="ProductsConsultancyMobileApp__heading">Mobile App</div>
-            <div className="ProductsConsultancyMobileApp__text">Access key features on-the-go with the Tesseract mobile app. Download today from the Apple App Store or Google Play Store and bring efficiency to your fingertips. Free, with unlimited user access.</div>
+            <div className="ProductsConsultancyMobileApp__text">Leverage geotagging features to monitor staff locations and activities efficiently. </div>
           </div>
           <div className="ProductsConsultancyMobileApp__imageContent">
           <img src={mobileApp} alt="ProductsConsultancyMobileApp__image1" className="ProductsConsultancyMobileApp__image" />
@@ -118,7 +119,7 @@ const Consultancy = () => {
           </div>
           <div className="ProductsConsultancySupport__content">
             <div className="ProductsConsultancySupport__heading">24/7 Support</div>
-            <div className="ProductsConsultancySupport__text">Our dedicated support team is available around the clock to assist you, ensuring your operations run smoothly without interruption.</div>
+            <div className="ProductsConsultancySupport__text">Access continuous support to resolve any HR or payroll issues promptly and maintain smooth operations.</div>
           </div>
         </div>
       </div>
@@ -126,7 +127,7 @@ const Consultancy = () => {
         <div className="ProductsConsultancyIssueRegister__container">
           <div className="ProductsConsultancyIssueRegister__content">
             <div className="ProductsConsultancyIssueRegister__heading">Issue Register</div>
-            <div className="ProductsConsultancyIssueRegister__text">Track and manage issues efficiently with our comprehensive Issue Register, designed to support project management through detailed tracking and updates.</div>
+            <div className="ProductsConsultancyIssueRegister__text">Manage and resolve any operational issues effectively to ensure continuous improvement and client satisfaction. </div>
           </div>
           <div className="ProductsConsultancyIssueRegister__imageContent">
           <img src={issueRegister} alt="ProductsConsultancyIssueRegister__image1" className="ProductsConsultancyIssueRegister__image" />

@@ -15,23 +15,25 @@ import PayrollImage from "../../../Assets/Payroll.png";
 import ParticipantRegistryImage from "../../../Assets/PR.png";
 import RepositoryImg from "../../../Assets/Repository.png";
 import twentyFourSeven from "../../../Assets/24_7.png";
-import companiesPayroll from "../../../Assets/svg/companiesPayroll.svg";
+import payrollCompanies from "../../../Assets/svg/payrollCompanies.svg";
 import payroll from "../../../Assets/svg/payroll.svg";
 import repository from "../../../Assets/svg/repository.svg";
 import mobileApp from "../../../Assets/svg/mobileApp.svg";
 import support from "../../../Assets/svg/support.svg";
 import issueRegister from "../../../Assets/svg/issueRegister.svg";
 import TopNav from "../../../Components/TopNav/TopNav";
+import ScrollToTop from "../../../Components/ScrollToTop/ScrollToTop";
 
 const Payroll = () => {
   return (
     <div>
+        <ScrollToTop />
       <TopNav type="secondary" />
       {/* <ImageWithContent data={ProductsHero} frame="Products" framePosition=""/> */}
       <div className="ProductsPayrollIntroduction">
         <div className="ProductsPayrollIntroduction__container">
           <div className="ProductsPayrollIntroduction__imageContent">
-          <img src={companiesPayroll} alt="ProductsPayrollIntroduction__image1" className="ProductsPayrollIntroduction__image" />
+          <img src={payrollCompanies} alt="ProductsPayrollIntroduction__image1" className="ProductsPayrollIntroduction__image" />
           </div>
           <div className="ProductsPayrollIntroduction__content">
             <div className="ProductsPayrollIntroduction__heading">Payroll Companies</div>
@@ -50,7 +52,7 @@ const Payroll = () => {
         <div className="ProductsPayrollShiftReports__container">
           <div className="ProductsPayrollShiftReports__content">
             <div className="ProductsPayrollShiftReports__heading">Payroll</div>
-            <div className="ProductsPayrollShiftReports__text">Generate payslips, STP reporting, Super annuation reporting, IAS and BAS, Track expenses, Generate Invoices and adhoc reporting, payments can be done via secured payment gateway system</div>
+            <div className="ProductsPayrollShiftReports__text">Generate detailed payslips, handle STP reporting, and manage superannuation, IAS, and BAS with ease. Track expenses and process payments securely. </div>
           </div>
           <div className="ProductsPayrollShiftReports__imageContent">
           <img src={payroll} alt="ProductsIntroduction__image1" className="ProductsPayrollShiftReports__image" />
@@ -65,7 +67,7 @@ const Payroll = () => {
           </div>
           <div className="ProductsPayrollRepository__content">
             <div className="ProductsPayrollRepository__heading">Repository</div>
-            <div className="ProductsPayrollRepository__text">Store your documents securely in a cloud based location for ease of access from anywhere </div>
+            <div className="ProductsPayrollRepository__text">Store all payroll-related documents in a secure, cloud-based repository for easy access and management. </div>
           </div>
         </div>
       </div>
@@ -73,7 +75,7 @@ const Payroll = () => {
         <div className="ProductsPayrollMobileApp__container">
           <div className="ProductsPayrollMobileApp__content">
             <div className="ProductsPayrollMobileApp__heading">Mobile App</div>
-            <div className="ProductsPayrollMobileApp__text">Access key features on-the-go with the Tesseract mobile app. Download today from the Apple App Store or Google Play Store and bring efficiency to your fingertips. Free, with unlimited user access.</div>
+            <div className="ProductsPayrollMobileApp__text">Utilize geotagging to ensure accurate tracking of staff attendance and activities. </div>
           </div>
             <div className="ProductsPayrollMobileApp__imageContent">
                 <img src={mobileApp} alt="ProductsPayrollMobileApp__image1" className="ProductsPayrollMobileApp__image" />
@@ -81,14 +83,14 @@ const Payroll = () => {
         </div>
       </div>
       <div className="ProductsPayrollSupport">
-        <img src={homeServiceBackground} alt="herobackgroundImage.." className="ProductsMission__backgroundImage" />
+        <img src={homeServiceBackground} alt="herobackgroundImage.." className="ProductsPayrollSupport__backgroundImage" />
         <div className="ProductsPayrollSupport__container">
           <div className="ProductsPayrollSupport__imageContent">
             <img src={support} alt="ProductsPayrollSupport__image1" className="ProductsPayrollSupport__image" />
           </div>
           <div className="ProductsPayrollSupport__content">
             <div className="ProductsPayrollSupport__heading">24/7 Support</div>
-            <div className="ProductsPayrollSupport__text">Our dedicated support team is available around the clock to assist you, ensuring your operations run smoothly without interruption.</div>
+            <div className="ProductsPayrollSupport__text">Benefit from round-the-clock support to handle any payroll-related issues promptly.</div>
           </div>
         </div>
       </div>
@@ -96,7 +98,7 @@ const Payroll = () => {
         <div className="ProductsPayrollIssueRegister__container">
           <div className="ProductsPayrollIssueRegister__content">
             <div className="ProductsPayrollIssueRegister__heading">Issue Register</div>
-            <div className="ProductsPayrollIssueRegister__text">Track and manage issues efficiently with our comprehensive Issue Register, designed to support project management through detailed tracking and updates.</div>
+            <div className="ProductsPayrollIssueRegister__text">Efficiently track and resolve any payroll issues to maintain smooth operations. </div>
           </div>
           <div className="ProductsPayrollIssueRegister__imageContent">
             <img src={issueRegister} alt="ProductsPayrollIssueRegister__image1" className="ProductsPayrollIssueRegister__image" />

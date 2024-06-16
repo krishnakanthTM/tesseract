@@ -23,10 +23,12 @@ import repository from "../../../Assets/svg/repository.svg";
 import mobileApp from "../../../Assets/svg/mobileApp.svg";
 import support from "../../../Assets/svg/support.svg";
 import issueRegister from "../../../Assets/svg/issueRegister.svg";
+import ScrollToTop from "../../../Components/ScrollToTop/ScrollToTop";
 
 const NDISIndustry = () => {
   return (
     <div>
+        <ScrollToTop />
       <TopNav type="secondary" />
       {/* <ImageWithContent data={ProductsHero} frame="Products" framePosition=""/> */}
       <div className="ProductsNDISIntroduction">
@@ -50,11 +52,10 @@ const NDISIndustry = () => {
       <div className="ProductsNDISMission">
         <div className="ProductsNDISMission__container">
           <div className="ProductsNDISMission__content">
-            <div className="ProductsNDISMission__heading">Staff Registry/ Human resources</div>
-            <div className="ProductsNDISMission__text">
-            Post new jobs, Conduct interviews, shortlist candidates, paperless onboarding, training and evalulations, rewards and recognitions, leave management, tracking performance ratings
+            <div className="ProductsNDISMission__heading">Staff Registry/ Human Resources</div>
+            <div className="ProductsNDISMission__text">Efficiently post new jobs, conduct interviews, shortlist candidates, and manage paperless onboarding. Facilitate training and evaluations, recognize achievements, and handle leave management and performance tracking.
             </div>
-            <div className="ProductsIntroduction__buttons">
+            <div className="ProductsNDISIntroduction__buttons">
                 <button className="tesseract-button-primary">Request a demo</button>
             </div>
           </div>
@@ -71,15 +72,15 @@ const NDISIndustry = () => {
           </div>
           <div className="ProductsNDISRoasterManagement__content">
             <div className="ProductsNDISRoasterManagement__heading">Roster Management</div>
-            <div className="ProductsNDISRoasterManagement__text">Create 1000+ shifts, manage rosters with casual and full time employees, generate expression of interests on rosters, publish, and send notifications</div>
+            <div className="ProductsNDISRoasterManagement__text">Seamlessly create over 1000 shifts, manage rosters with both casual and full-time employees, generate expressions of interest, and send notifications. </div>
           </div>
         </div>
       </div>
       <div className="ProductsNDISParticipantRegistry">
         <div className="ProductsNDISParticipantRegistry__container">
           <div className="ProductsNDISParticipantRegistry__content">
-            <div className="ProductsNDISParticipantRegistry__heading">Participant registry</div>
-            <div className="ProductsNDISParticipantRegistry__text">Create service agreements, capture shift notes, progress notes, and care notes for the participants, Track funds spent, generate invoices</div>
+            <div className="ProductsNDISParticipantRegistry__heading">Participant Registry</div>
+            <div className="ProductsNDISParticipantRegistry__text">Create comprehensive service agreements, capture detailed shift, progress, and care notes, track funds spent, and generate accurate invoices.</div>
           <div className="ProductsNDISParticipantRegistry__buttons">
             <button className="tesseract-button-primary">Request a demo</button>
           </div>
@@ -97,15 +98,15 @@ const NDISIndustry = () => {
           </div>
           <div className="ProductsNDISSignIn__content">
             <div className="ProductsNDISSignIn__heading">Sign-in/out</div>
-            <div className="ProductsNDISSignIn__text">Allows staff to sign in and sign on from the mobile application</div>
+            <div className="ProductsNDISSignIn__text">Enable staff to sign in and out directly from the mobile application, ensuring accurate attendance records. </div>
           </div>
         </div>
       </div>
       <div className="ProductsNDISShiftReports">
         <div className="ProductsNDISShiftReports__container">
           <div className="ProductsNDISShiftReports__content">
-            <div className="ProductsNDISShiftReports__heading">Shift reports</div>
-            <div className="ProductsNDISShiftReports__text">Access key features on-the-go with the Tesseract mobile app. Download today from the Apple App Store or Google Play Store and bring efficiency to your fingertips. Free, with unlimited user access.</div>
+            <div className="ProductsNDISShiftReports__heading">Shift Reports</div>
+            <div className="ProductsNDISShiftReports__text">Generate detailed and comprehensive shift reports to keep track of all activities and changes.</div>
           </div>
           <div className="ProductsNDISShiftReports__imageContent">
           <img src={shiftReports} alt="ProductsNDISShiftReportsn__image1" className="ProductsNDISShiftReports__image" />
@@ -120,7 +121,7 @@ const NDISIndustry = () => {
           </div>
           <div className="ProductsNDISTimesheet__content">
             <div className="ProductsNDISTimesheet__heading">Timesheets</div>
-            <div className="ProductsNDISTimesheet__text">Optimize team scheduling with our intuitive roster management tool. Effortlessly create, adjust, and share rosters while keeping labor costs in check.</div>
+            <div className="ProductsNDISTimesheet__text">Manage timesheets efficiently and ensure accurate time tracking for all employees.</div>
           </div>
         </div>
       </div>
@@ -128,7 +129,7 @@ const NDISIndustry = () => {
         <div className="ProductsNDISPayroll__container">
           <div className="ProductsNDISPayroll__content">
             <div className="ProductsNDISPayroll__heading">Payroll</div>
-            <div className="ProductsNDISPayroll__text">Generate payslips, STP reporting, Super annuation reporting, IAS and BAS, Track expenses, Generate Invoices and adhoc reporting, payments can be done via secured payment gateway system</div>
+            <div className="ProductsNDISPayroll__text">Generate payslips, handle STP reporting, manage superannuation, IAS, and BAS. Track expenses and generate invoices with the capability of secure payment processing.</div>
           </div>
           <div className="ProductsNDISPayroll__imageContent">
           <img src={payroll} alt="ProductsIntroduction__image1" className="ProductsNDISPayroll__image" />
@@ -143,7 +144,7 @@ const NDISIndustry = () => {
           </div>
           <div className="ProductsNDISRepository__content">
             <div className="ProductsNDISRepository__heading">Repository</div>
-            <div className="ProductsNDISRepository__text">Store your documents securely in a cloud based location for ease of access from anywhere </div>
+            <div className="ProductsNDISRepository__text">Store and access documents securely in a cloud-based location, ensuring they are available whenever needed. </div>
           </div>
         </div>
       </div>
@@ -151,7 +152,7 @@ const NDISIndustry = () => {
         <div className="ProductsNDISMobileApp__container">
           <div className="ProductsNDISMobileApp__content">
             <div className="ProductsNDISMobileApp__heading">Mobile App</div>
-            <div className="ProductsNDISMobileApp__text">Access key features on-the-go with the Tesseract mobile app. Download today from the Apple App Store or Google Play Store and bring efficiency to your fingertips. Free, with unlimited user access.</div>
+            <div className="ProductsNDISMobileApp__text">Use geotagging capabilities to track staff locations and activities effectively.</div>
           </div>
           <div className="ProductsNDISMobileApp__imageContent">
           <img src={mobileApp} alt="ProductsNDISMobileApp__image1" className="ProductsNDISMobileApp__image" />
@@ -166,7 +167,7 @@ const NDISIndustry = () => {
           </div>
           <div className="ProductsNDISSupport__content">
             <div className="ProductsNDISSupport__heading">24/7 Support</div>
-            <div className="ProductsNDISSupport__text">Our dedicated support team is available around the clock to assist you, ensuring your operations run smoothly without interruption.</div>
+            <div className="ProductsNDISSupport__text">Access dedicated support around the clock to resolve any issues promptly. </div>
           </div>
         </div>
       </div>
@@ -174,7 +175,7 @@ const NDISIndustry = () => {
         <div className="ProductsNDISIssueRegister__container">
           <div className="ProductsNDISIssueRegister__content">
             <div className="ProductsNDISIssueRegister__heading">Issue Register</div>
-            <div className="ProductsNDISIssueRegister__text">Track and manage issues efficiently with our comprehensive Issue Register, designed to support project management through detailed tracking and updates.</div>
+            <div className="ProductsNDISIssueRegister__text">Track and manage issues efficiently to ensure quick resolution and continuous improvement. </div>
           </div>
           <div className="ProductsNDISIssueRegister__imageContent">
           <img src={issueRegister} alt="ProductsNDISIssueRegister__image1" className="ProductsNDISIssueRegister__image" />
