@@ -87,12 +87,13 @@
 
     &__text {
         margin: 20px 0;
-        text-align: justify;
+        // text-align: justify;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 18.75px;
         color: white;
+        word-spacing: 3px;
     }
 
     &__buttons {
@@ -204,7 +205,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 38vh; 
         //  height: 58vh; 
         //  position: absolute;
         padding: 0 20px;

@@ -29,7 +29,7 @@ function TopNav({ type }) {
                 className="nav-items"
               >
                 Products
-                <img className="nav-downArrow" src={downicon} alt="downarrow" />
+                {/* <img className="nav-downArrow" src={downicon} alt="downarrow" /> */}
               </div>
 
               {/* <div
@@ -49,7 +49,7 @@ function TopNav({ type }) {
                 className="nav-items"
               >
                 Pricing
-                <img className="nav-downArrow" src={downicon} alt="downarrow" />
+                {/* <img className="nav-downArrow" src={downicon} alt="downarrow" /> */}
               </div>
 
               <div

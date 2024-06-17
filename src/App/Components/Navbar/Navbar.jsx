@@ -10,7 +10,7 @@ function Navbar() {
       <div className="navbar-container">
         <div class="productsContainer">
         <div className="nav-items" onClick={() => {navigate("/Products/NDISIndustry");}}> Products
-          <img className="nav-downArrow" src={downicon} alt="downarrow" />
+          {/* <img className="nav-downArrow" src={downicon} alt="downarrow" /> */}
         </div>
         {/* <div class="nav-hidden">
           <div class="row">
@@ -57,7 +57,7 @@ function Navbar() {
           className="nav-items"
         >
           Pricing
-          <img className="nav-downArrow" src={downicon} alt="downarrow" />
+          {/* <img className="nav-downArrow" src={downicon} alt="downarrow" /> */}
         </div>
 
         <div
