@@ -60,7 +60,7 @@ function HomePage() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: width <= 1024 ? 1 : 3,
+    slidesToShow: width <= 1080 ? 1 : 3,
     slidesToScroll: 1
   };
   console.log("width",width)
