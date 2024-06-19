@@ -123,57 +123,57 @@ function HomePage() {
         {/* <div className="HomeServices__container"> */}
           <div className="HomeServices__content">
             <div className="HomeServices__column1">
-            <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Staff and Participants Registry
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Roster Management
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Timesheets
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Payroll
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Human Resources
             </div>
-            {/* <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Mobile App
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 24/7 Support
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Repository for secured Document Storage
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column1__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Issues Register
-            </div> */}
+            </div>
         </div>
         <div className="HomeServices__column2">
-            <div className="HomeServices__item">
+            <div className="HomeServices__column2__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Mobile App
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column2__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 24/7 Support
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column2__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Repository for secured Document Storage
             </div>
-            <div className="HomeServices__item">
+            <div className="HomeServices__column2__item">
                 <span><img src={vector} alt="tickMark" />&nbsp;&nbsp;&nbsp;</span>
                 Issues Register
             </div>
